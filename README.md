@@ -1,6 +1,6 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/andrewskyboss/milestone-project-02)
 
-# milestone-project-02 Interactive Frontend Development / PortfFake Travel
+# milestone-project-02 Interactive Frontend Development / Fake Travel
 Milestone Project 02  Andrew Cybossky Fake Travel
 - ![Screen shot of logo/navigation of website](assets/images/logo-navigation.PNG)
 - [Link to a deployed project](https://andrewskyboss.github.io/milestone-project-02)  Andrew Cybossky Fake Travel website.
@@ -26,7 +26,7 @@ Andrej Cybovskij
 - Clear structure makes it quick accessible and easy to use.
 - All those features makes it highly efficient to achieve main target to be hired.
 
-- [Link to a deployed website](https://andrewskyboss.github.io/milestone-project-01/index.html)
+- [Link to a deployed website](https://andrewskyboss.github.io/milestone-project-02)
 
 ## UX
 
