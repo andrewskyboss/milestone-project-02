@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	color: #000000;
+	font-size: 16px;
+
+}
+:root {
+  --red-main: #ff0000;
+  --white: #ffffff;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	color: #ff0000;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Abril Fatface', sans-serif;
+	font-weight: 400;
+	font-size: 35px;
+	/*color: #2D325A;*/
+	color: var(--red-main);
+}
+p {
+	text-align: justify;
+}
+a {
+	color: #F71735;
+	transition: color 0.8s ease;
+}
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #DBB13B;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+
+}
+section {
+
+}
+footer {
+
+}
+
+/*---------------- Hero Image module ----------------*/
+.hero-image {
+	height: 60vh;
+	overflow: hidden;
+	float: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-items: center;
+	position: relative;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 20%);
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.hero-image-title {
+	position: absolute;
+	height: 20%;
+	width: 50%;
+	top: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    background-color: rgba(241, 228, 243, 0.6);
+}
+.hero-image-title h2 {
+	text-align: center;
+}
+
+.image-box-image {
+	float: left;
+	height: 500px;
+	padding: 5px;
+}
+.image-box-content {
+	float: left;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+
