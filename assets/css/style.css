@@ -2,43 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+:root {
+  --color-brand-1: #296EB4;
+  --color-brand-2: #04A777;
+  --color-brand-3: #EAD94C;
+  --color-brand-4: #FF934F;
+  --color-brand-5: #CC2936;
+  --color-brand-6: #1B1725;
+  --color-white: #ffffff;
+}
 
 body {
 	font-family: 'Quicksand', sans-serif;
-	color: #000000;
+	color: var(--color-brand-6);
 	font-size: 16px;
 
-}
-:root {
-  --red-main: #ff0000;
-  --white: #ffffff;
 }
 
 h1 {
 	font-family: 'Abril Fatface', cursive;
-	color: #ff0000;
-	font-size: 40px;
+	color: var(--color-brand-1);
+	font-size: 50px;
 	text-align: center;
 }
 h2 {
 	font-family: 'Abril Fatface', sans-serif;
 	font-weight: 400;
-	font-size: 35px;
-	/*color: #2D325A;*/
-	color: var(--red-main);
+	font-size: 40px;
+	color: var(--color-brand-5);
+}
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: var(--color-brand-4);
 }
 p {
 	text-align: justify;
 }
 a {
-	color: #F71735;
+	color: var(--color-brand-2);
 	transition: color 0.8s ease;
 }
 a:hover,
 a:active,
 a:focus {
 	text-decoration: none;
-	color: #DBB13B;
+	color: color: var(--color-brand-3);
 }
 img {
     width: 100%;
@@ -99,6 +109,21 @@ img {
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
+}
+.btn.btn-primary {
+	background: transparent;
+	padding: 10px 30px;
+	border: 1px solid var(--color-brand-5);
+	border-radius: 0;
+}
+.btn.btn-primary:hover {
+	background: var(--color-brand-5);
+}
+.btn.btn-primary a {
+	color: var(--color-brand-5);
+}
+.btn.btn-primary:hover a {
+	color: var(--color-white);
 }
 
 
