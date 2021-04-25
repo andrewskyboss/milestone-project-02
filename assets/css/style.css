@@ -55,11 +55,12 @@ img {
     width: 100%;
     height: auto;
 }
+
 header {
 
 }
 section {
-	margin-top: 200px;
+	//margin-top: 200px;
 }
 footer {
 
@@ -67,7 +68,7 @@ footer {
 
 /*---------------- Hero Image module ----------------*/
 .hero-image {
-	height: 60vh;
+	height: 80vh;
 	overflow: hidden;
 	float: left;
 	display: flex;
@@ -94,6 +95,7 @@ img {
 }
 .hero-image-title h2 {
 	text-align: center;
+	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 
 .image-box-image {
@@ -158,21 +160,31 @@ img {
 	align-items: flex-end;
 	height: 73px;
 	margin-top: -30px;
+	//border-bottom: 1px solid var(--color-brand-5);
 }
 .navbar .collapse ul > li {
 	margin-right: 0;
 }
 .navbar .collapse ul > li > a {
-	color: var(--color-brand-6);
-	padding: 20px;
+	color: var(--color-brand-6)!important;
+	padding: 24px 15px!important;
 	transition: all 0.8s ease;
 }
 .navbar .collapse ul > li > a:hover {
-	color: var(--color-white);
+	color: var(--color-white)!important;
 	background-color: var(--color-brand-5);
 }
 /* END -------------- Navigation module --------------*/
 
 
 
-
+@keyframes fade-in-from-bottom-animation {
+	0% {
+		transform: translateY(30px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
