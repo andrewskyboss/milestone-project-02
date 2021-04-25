@@ -55,7 +55,6 @@ img {
     width: 100%;
     height: auto;
 }
-
 header {
 
 }
@@ -159,7 +158,6 @@ img {
 	align-items: flex-end;
 	height: 73px;
 	margin-top: -30px;
-	//border-bottom: 1px solid var(--color-brand-5);
 }
 .navbar .collapse ul > li {
 	margin-right: 0;
