@@ -63,12 +63,14 @@ section {
 	//margin-top: 200px;
 }
 footer {
-
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 60px;
 }
 
 /*---------------- Hero Image module ----------------*/
 .hero-image {
-	height: 80vh;
+	height: 90vh;
 	overflow: hidden;
 	float: left;
 	display: flex;
@@ -91,11 +93,22 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	z-index: 1;
     background-color: rgba(241, 228, 243, 0.6);
 }
 .hero-image-title h2 {
 	text-align: center;
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
+}
+.carousel-control-next, 
+.carousel-control-prev {
+	padding: 7%;
+}
+
+.section-title {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .image-box-image {
@@ -176,11 +189,39 @@ img {
 }
 /* END -------------- Navigation module --------------*/
 
+/* START ---------------- Social links module ----------------*/
+.social-links-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.social-links-container ul {
+	margin: 0;
+	padding: 0;
+}
+.social-links-container ul li {
+	margin-left: 20px;
+	margin-right: 20px!important;
+}
+.social-links-container ul li a {
+	color: var(--color-brand-1);
+}
+.social-links-container ul li a:hover {
+	color: var(--color-brand-2);
+}
+.social-links-container ul li a:hover i {
+	transform: scale(1.2);
+}
+.social-links-container ul li a i {
+    font-size: 40px;
+    transform: scale(1);
+	transition: all 0.8s ease;
+}
 
 
+/* START -------------- Animation --------------*/
 @keyframes fade-in-from-bottom-animation {
 	0% {
-		transform: translateY(30px);
+		transform: translateY(40px);
 		opacity: 0;
 	}
 	100% {
