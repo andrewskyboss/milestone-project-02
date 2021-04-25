@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+
 :root {
   --color-brand-1: #296EB4;
   --color-brand-2: #04A777;
@@ -48,7 +49,7 @@ a:hover,
 a:active,
 a:focus {
 	text-decoration: none;
-	color: color: var(--color-brand-3);
+	color: var(--color-brand-3);
 }
 img {
     width: 100%;
@@ -59,7 +60,7 @@ header {
 
 }
 section {
-
+	margin-top: 200px;
 }
 footer {
 
@@ -110,6 +111,7 @@ img {
 	align-items: center;
 	padding: 5px;
 }
+
 .btn.btn-primary {
 	background: transparent;
 	padding: 10px 30px;
@@ -125,5 +127,54 @@ img {
 .btn.btn-primary:hover a {
 	color: var(--color-white);
 }
+
+/* START -------------- Navigation module --------------*/
+
+.header-row {
+	height: 150px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 3px 20px -10px var(--color-brand-6);
+}
+.header-logo {
+	height: 100px;
+}
+.header-logo-link {
+	padding: 40px;
+}
+.header-logo-link img {
+	height: 100%;
+	width: auto;
+}
+.navbar {
+	width: 90%;
+	left: 5%;
+	flex-direction: column;
+	align-items: flex-end;
+	height: 73px;
+	margin-top: -30px;
+	//border-bottom: 1px solid var(--color-brand-5);
+}
+.navbar .collapse ul > li {
+	margin-right: 0;
+}
+.navbar .collapse ul > li > a {
+	color: var(--color-brand-6);
+	padding: 20px;
+	transition: all 0.8s ease;
+}
+.navbar .collapse ul > li > a:hover {
+	color: var(--color-white);
+	background-color: var(--color-brand-5);
+}
+/* END -------------- Navigation module --------------*/
+
+
 
 
