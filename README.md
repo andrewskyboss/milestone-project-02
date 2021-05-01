@@ -2,8 +2,8 @@
 
 # milestone-project-02 Interactive Frontend Development / Hey Travel
 Milestone Project 02  Andrew Cybossky Hey Travel
-- ![logo](assets/images/logo-navigation.PNG)
-- ![Screen shot of logo/navigation of website](assets/images/logo.png)
+- ![logo](assets/images/logo.png)
+- ![Screen shot of logo/navigation of website](assets/images/main-navigation.PNG)
 - [Link to a deployed project](https://andrewskyboss.github.io/milestone-project-02)  Andrew Cybossky Fake Travel website.
 
 ## Author
