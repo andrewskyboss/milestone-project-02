@@ -21,6 +21,7 @@
 			<nav class="header-bar-1">
 				<div class="menu-header-container" id="main-menu">
 					<ul class="menu-header">
+						<li class="menu-item active"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
 						<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 						<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 						<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -29,7 +30,7 @@
 				</div>
 			</nav>
 			<div class="header-tags left">
-				<a class="header-tag mobile-menu-trigger mobile-menu-visible" >
+				<a class="header-tag mobile-menu-trigger mobile-menu-hidden" >
 					<i class="fa fa-bars fa-icon-mobile-menu-hidden"></i>
 					<!--<i class="fa fa-times fa-icon-mobile-menu-visible"></i>-->
 				</a>
@@ -38,6 +39,7 @@
 				<nav class="navbar">
 					<div class="menu-header-container" id="main-menu">
 						<ul class="menu-header">
+							<li class="menu-item active"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
 							<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 							<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 							<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -50,10 +52,11 @@
 	</header>
 	<section class="container-fluid">
 		<div class="hero-image">
-			<!--<img src="assets/images/travel-poster-002.jpg" alt="travel poster, globe with attractions">-->
 			<div class="hero-image-title">
 				<h2 >Welcome to Hey Travel</h2>
 			</div>
+
+	<!-- Hero Slider -->
 			<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -79,44 +82,77 @@
 				</a>
 			</div>
 		</div>
+		<!-- Grid Boxes -->
 		<div class="row image-boxes">
 			<div class="section-title col-12">
 				<h1>Home</h1>
 			</div>
 			<div class="image-boxes-2-col ">
-				<div class="image-box-image col-8">
-					<a href="destinations.html" title="Destinations Image">
-						<img src="assets/images/fake-travel-002.jpg" alt="map with flags">
-					</a>
+				<div class="row image-boxes-2-row odd">
+					<div class="image-box-image col-lg-8 col-sm-12">
+						<a href="destinations.html" title="Destinations Image">
+							<img src="assets/images/destinations.png" alt="map with flags">
+						</a>
+					</div>
+					<div class="image-box-content col-lg-4 col-sm-12">
+						<h2 class="title box-title">Destinations</h2>
+						<h3 class="subtitle">Our packages and Destinations</h3>
+						<p class="description">You can find out more information by clicking below</p>
+						<button class="btn btn-primary">
+							<a href="destinations.html" title="">View More</a>
+						</button>
+					</div>
 				</div>
-				<div class="image-box-content col-4">
-					<h2 class="title box-title">Destinations</h2>
-					<h3 class="subtitle">Subtitle</h3>
-					<p class="description">Some descriptions</p>
-					<button class="btn btn-primary">
-						<a href="destinations.html" title="">View More</a>
-					</button>
+				<div class="row image-boxes-2-row even">
+					<div class="image-box-content col-lg-4 col-sm-12">
+						<h2 class="title box-title">Gallery</h2>
+						<h3 class="subtitle">To take a Look</h3>
+						<p class="description">Some Inspirations from our Destinations</p>
+						<button class="btn btn-primary">
+							<a href="gallery.html" title="">View More</a>
+						</button>
+					</div>
+					<div class="image-box-image col-lg-8 col-sm-12">
+						<a href="gallery.html" title="Gallery Image">
+							<img src="assets/images/travel-ireland-004.jpg" alt="Ireland view">
+						</a>
+					</div>
 				</div>
-				<div class="image-box-content col-4">
-					<h2 class="title box-title">Gallery</h2>
-					<h3 class="subtitle">Subtitle</h3>
-					<p class="description">Some descriptions</p>
-					<button class="btn btn-primary">
-						<a href="destinations.html" title="">View More</a>
-					</button>
+				<div class="row image-boxes-2-row odd">
+					<div class="image-box-image col-lg-8 col-sm-12">
+						<a href="about.html" title="About Us Image">
+							<img src="assets/images/travel-table-002.jpg" alt="Table">
+						</a>
+					</div>
+					<div class="image-box-content col-lg-4 col-sm-12">
+						<h2 class="title box-title">About Us</h2>
+						<h3 class="subtitle">Why chose Us</h3>
+						<p class="description">and many many more</p>
+						<button class="btn btn-primary">
+							<a href="about.html" title="">View More</a>
+						</button>
+					</div>
 				</div>
-				<div class="image-box-image col-8">
-					<a href="gallery.html" title="Gallery Image">
-						<img src="assets/images/travel-water-001.jpg" alt="map with flags">
-					</a>
+				<div class="row image-boxes-2-row even">
+					<div class="image-box-content col-lg-4 col-sm-12">
+						<h2 class="title box-title">Contact Us</h2>
+						<h3 class="subtitle">All you need</h3>
+						<p class="description">Contact or Book an appointment</p>
+						<button class="btn btn-primary">
+							<a href="contact.html" title="">View More</a>
+						</button>
+					</div>
+					<div class="image-box-image col-lg-8 col-sm-12">
+						<a href="contact.html" title="Contact us Image">
+							<img src="assets/images/travel-table-003.jpg" alt="laptop">
+						</a>
+					</div>
 				</div>
 			</div>
 			
 		</div>
 		
-		<p>
-			Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Sed porttitor lectus nibh.
-		</p>
+		<p></p>
 		
 	</section>
 	<footer class="container-fluid">
