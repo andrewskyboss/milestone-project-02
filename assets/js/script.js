@@ -21,11 +21,9 @@ function mobileMenuOpenClose(open) {
 	if(open) {
 		$('.mobile-menu').show().removeClass('hidden').addClass('visible');
 		$('.mobile-menu-trigger').removeClass('mobile-menu-hidden').addClass('mobile-menu-visible');
-		/*$('body').css('overflow', 'hidden');*/
 	} else {
 		$('.mobile-menu').removeClass('visible').addClass('hidden');
 		$('.mobile-menu-trigger').removeClass('mobile-menu-visible').addClass('mobile-menu-hidden');
-		/*$('body').css('overflow', 'auto');*/
 	}
 }
 
