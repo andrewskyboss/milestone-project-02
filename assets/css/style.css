@@ -125,7 +125,12 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 5px;
+	padding: 30px;
+}
+.image-box-content .title,
+.image-box-content .subtitle,
+.image-box-content .description {
+	text-align: center;
 }
 
 .btn.btn-primary {
