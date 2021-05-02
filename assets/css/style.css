@@ -72,15 +72,25 @@ footer {
 
 /*---------------- Hero Image module ----------------*/
 .hero-image {
-	height: auto;
+	height: 90vh;
 	overflow: hidden;
-	float: left;
+	/*float: left;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	justify-items: center;
 	position: relative;
-    box-shadow: 1px 1px 10px rgb(0, 0, 0, 20%);
+	box-shadow: 1px 1px 10px rgb(0, 0, 0, 20%);
+}
+
+.carousel.carousel-fade {
+	height: 90vh;
+}
+.carousel.carousel-fade .carousel-inner {
+	height: 100%;
+}
+.carousel.carousel-fade .carousel-inner .carousel-item {
+	height: 100%;
 }
 img {
 	width: 100%;
@@ -96,7 +106,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	z-index: 1;
-    background-color: rgba(241, 228, 243, 0.6);
+	background-color: rgba(241, 228, 243, 0.6);
 }
 .hero-image-title h2 {
 	text-align: center;
