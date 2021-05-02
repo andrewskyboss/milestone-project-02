@@ -116,6 +116,9 @@ img {
 .carousel-control-prev {
 	padding: 7%;
 }
+section .image-boxes.gallery {
+	margin-top: 170px;
+}
 
 .section-title {
 	text-align: center;
@@ -313,8 +316,8 @@ ul.menu-header > li:hover a {
 }
 .social-links-container ul li {
 	margin-left: 20px;
-    margin-right: 20px!important;
-    margin-bottom: 20px;
+	margin-right: 20px!important;
+	margin-bottom: 20px;
 }
 .social-links-container ul li a {
 	color: var(--color-brand-1);
@@ -364,6 +367,9 @@ ul.menu-header > li:hover a {
 
 @media (max-width: 991px) {
 	/*.image-box-image.col-lg-8.col-sm-12*/
+	.hero-image-title {
+		width: 90%;
+	}
 
 	.image-boxes-2-row.even .image-box-content {
 		order: 2;
