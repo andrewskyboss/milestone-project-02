@@ -40,6 +40,6 @@ function newsletterMail(newsletterForm) {
 			console.log("FAILED", error);
 		}
 	);
-	return true;
+	return false;
 }
 
