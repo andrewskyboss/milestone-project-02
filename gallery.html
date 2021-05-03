@@ -65,7 +65,13 @@
 		
 	</section>
 	<footer class="container-fluid">
-		<div class="row no-gutters">
+		<div class="row footer-container">
+			<div class="container-fluid newsletter-container">
+				<form class="newsletter-form" method="POST" onsubmit="return sendMail(this);">
+					<input type="email" name="emailNewsletters" id="emailAddressNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
+					<button type="submit" class="btn btn-secondary" required>Sign Up</button>
+				</form>
+			</div>
 			<div class="container-fluid social-links-container">
 				<ul class="list-inline social-links text-center">
 					<li class="list-inline-item">

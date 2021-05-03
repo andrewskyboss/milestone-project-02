@@ -21,7 +21,7 @@
 			<nav class="header-bar-1">
 				<div class="menu-header-container" id="main-menu">
 					<ul class="menu-header">
-						<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+						<li class="menu-item"><a class="menu-link" href="index.html" title="Homepage">Home</a></li>
 						<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 						<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 						<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -32,13 +32,14 @@
 			<div class="header-tags left">
 				<a class="header-tag mobile-menu-trigger mobile-menu-hidden" >
 					<i class="fa fa-bars fa-icon-mobile-menu-hidden"></i>
+					<!--<i class="fa fa-times fa-icon-mobile-menu-visible"></i>-->
 				</a>
 			</div>
 			<div class="mobile-menu hidden">
 				<nav class="navbar">
 					<div class="menu-header-container" id="main-menu">
 						<ul class="menu-header">
-							<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+							<li class="menu-item"><a class="menu-link" href="index.html" title="Homepage">Home</a></li>
 							<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 							<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 							<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -91,12 +92,32 @@
 			
 		</div>
 		
-		<p></p>
+		<div class="row contact-form-section">
+			<form class="contact-form-form" method="POST" onsubmit="return sendMail(this);">
+				<input type="text" name="name" id="firstName" class="form-input" placeholder="Name" required>
+				<input type="text" name="surname" id="lastName" class="form-input" placeholder="Surname" required>
+				<input type="email" name="emailAddtess" id="emailAddress" class="form-input" placeholder="Email" required>
+				<input type="tel" name="phone" id="phoneNumber" class="form-input" placeholder="Phone" required>
+				<input type="text" name="address" id="addressAddress" class="form-input" placeholder="Address" required>
+				<input type="text" name="city" id="addressCity" class="form-input" placeholder="City" required>
+				<input type="text" name="country" id="addressCountry" class="form-input" placeholder="Country" required>
+				<textarea rows="4" cols="12" name="message" id="message" class="form-input textarea" placeholder="Message" required></textarea>
+				<button type="submit" class="btn btn-primary" required>Send a Message</button>
+				<button type="reset" class="btn btn-primary" required>Clear Fields</button>
+				
+			</form>
+		</div>
 
 		
 	</section>
 	<footer class="container-fluid">
-		<div class="row no-gutters">
+		<div class="row footer-container">
+			<div class="container-fluid newsletter-container">
+				<form class="newsletter-form" method="POST" onsubmit="return sendMail(this);">
+					<input type="email" name="emailNewsletters" id="emailAddressNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
+					<button type="submit" class="btn btn-secondary" required>Sign Up</button>
+				</form>
+			</div>
 			<div class="container-fluid social-links-container">
 				<ul class="list-inline social-links text-center">
 					<li class="list-inline-item">
