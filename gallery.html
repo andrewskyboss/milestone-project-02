@@ -9,7 +9,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Gallery</title>
+    <title>Hey Travel | Gallery</title>
+    <script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -67,8 +75,8 @@
 	<footer class="container-fluid">
 		<div class="row footer-container">
 			<div class="container-fluid newsletter-container">
-				<form class="newsletter-form" method="POST" onsubmit="return sendMail(this);">
-					<input type="email" name="emailNewsletters" id="emailAddressNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
+				<form class="newsletter-form" id="newsletterForm" method="POST" onsubmit="return newsletterMail(this);">
+					<input type="email" name="emailNewsletters" id="emailNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
 					<button type="submit" class="btn btn-secondary" required>Sign Up</button>
 				</form>
 			</div>
