@@ -149,6 +149,9 @@ section .image-boxes.gallery {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+.section-title h1 {
+	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
+}
 
 .image-box-image {
 	float: left;
