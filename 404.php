@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Milestone Project 2</title>
+	<title>Hey Travel | Page Not Found</title>
 </head>
 <body>
 	<header class="container-fluid">
@@ -21,7 +21,7 @@
 			<nav class="header-bar-1">
 				<div class="menu-header-container" id="main-menu">
 					<ul class="menu-header">
-						<li class="menu-item active"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+						<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
 						<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 						<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 						<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -39,7 +39,7 @@
 				<nav class="navbar">
 					<div class="menu-header-container" id="main-menu">
 						<ul class="menu-header">
-							<li class="menu-item active"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+							<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
 							<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 							<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 							<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -60,16 +60,16 @@
 			<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="assets/images/travel-poster-002.jpg" alt="travel poster, globe with attractions">
+						<img class="d-block w-100" src="assets/images/travel-ireland-004.jpg" alt="travel poster, globe with attractions">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-water-001.jpg" alt="First slide">
+						<img class="d-block w-100" src="assets/images/travel-ireland-003.jpg" alt="First slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-water-002.jpg" alt="Second slide">
+						<img class="d-block w-100" src="assets/images/travel-water-004.jpg" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-water-003.jpg" alt="Third slide">
+						<img class="d-block w-100" src="assets/images/travel-water-005.jpg" alt="Third slide">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
