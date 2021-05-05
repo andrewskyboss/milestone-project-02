@@ -140,8 +140,18 @@ img {
 .carousel-control-prev {
 	padding: 7%;
 }
-section .image-boxes.gallery {
+section .image-boxes.gallery,
+section .image-boxes.map-section {
 	margin-top: 170px;
+}
+section .gallery-container {
+	width: 100%;
+}
+section .gallery-container .gallery-row {
+	margin: 0;
+}
+section .gallery-container .gallery-row .gallery-row-single-image {
+	padding: 10px;
 }
 
 .section-title {
@@ -151,6 +161,13 @@ section .image-boxes.gallery {
 }
 .section-title h1 {
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
+}
+.image-boxes-2-col {
+	width: 100%;
+}
+.image-boxes-2-col .image-boxes-2-row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .image-box-image {
@@ -173,6 +190,41 @@ section .image-boxes.gallery {
 	text-align: center;
 }
 
+section .map-container {
+	width: 100%;
+	height: 50vh;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+section .map-container .map-container-box {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+section .search-container {
+	width: 100%;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+section .search-container .search-container-box {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: var(--color-brand-3);
+}
+
+section .container-content {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+section .container-content .container-content-box {
+
+}
+section .container-content .container-content-box .title-content {
+	text-align: center;
+}
 .btn.btn-primary {
 	background: transparent;
 	padding: 10px 30px;
