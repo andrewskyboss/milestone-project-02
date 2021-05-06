@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 	<title>Hey Travel | Destinations</title>
 </head>
 <body>
@@ -60,7 +61,7 @@
 			</div>
 			<div class="row search-container">
 				<div class="row search-container-box">
-					
+					<input id="pac-input" type="text" class="search-box controls" name="pac-input" placeholder="Type here for search">
 				</div>
 			</div>
 		</div>
@@ -168,6 +169,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7slZiH_2QxvBiOc_Q5M4SzsNwRNK-Lng&callback=initMap&libraries=&v=weekly" async ></script>-->
+
+<script async
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&libraries=geometry,places&callback=initMap">
+</script>
+
 <script type="text/javascript" src="assets/js/script.js"></script>
 </html>
