@@ -13,7 +13,7 @@ Andrej Cybovskij
 
 - Below is a picture of site that shows it in responsive states. 
 [link to check a website to be responsive](http://ami.responsivedesign.is)
-![picture of site](assets/images/screengrab-01.PNG)
+![picture of site](assets/images/responsive-1.PNG)
 - The project idea is to create a personal portfolio website (for Andrej Cybovskij). 
 	This websites goal is to represent Autor for potential Employers and Recruiters in a best light and get hired. 
     The main users of this website are a business people and their representatives. 
@@ -121,7 +121,7 @@ By the [empower-yourself-with-color-psychology.com website](https://www.empower-
 - Combination of those colors should create emotional trust and future potential. Those feelings and website content should help the Author to achieve his goals to be hired.
 
 - Color palete was created using [Coolors resources](https://coolors.co)
-- ![color scheme](assets/documents/ACybossky_color_scheme.png)
+- ![color scheme](assets/images/colors.PNG)
 
 #### Typography
 - Raleway as an elegant sans-serif typeface family font, were using in this project for the body text.
