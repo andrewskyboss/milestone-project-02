@@ -61,7 +61,6 @@ header {
 	position: absolute;
 }
 section {
-	//margin-top: 200px;
 	z-index: 5;
 }
 footer {}
@@ -146,11 +145,11 @@ section .image-boxes.map-section {
 }
 section .gallery-container {
 	width: 100%;
-}
-section .gallery-container .gallery-row {
 	margin: 0;
+	display: flex;
+	justify-content: center;
 }
-section .gallery-container .gallery-row .gallery-row-single-image {
+section .gallery-container .gallery-row-single-image {
 	padding: 10px;
 }
 
@@ -239,16 +238,17 @@ section .container-content .container-content-box .title-content {
 .btn.btn-primary {
 	background: transparent;
 	padding: 10px 30px;
+	color: var(--color-brand-6);
 	border: 1px solid var(--color-brand-5);
 	border-radius: 0;
+	outline: none;
+	box-shadow: none!important;
 }
-.btn.btn-primary:hover {
-	background: var(--color-brand-5);
-}
-.btn.btn-primary a {
-	color: var(--color-brand-5);
-}
-.btn.btn-primary:hover a {
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+	background-color: var(--color-brand-5)!important;
+	border: 1px solid var(--color-brand-5)!important;
 	color: var(--color-white);
 }
 .btn.btn-secondary {
@@ -257,9 +257,14 @@ section .container-content .container-content-box .title-content {
 	padding: 5px 40px;
 	border: 1px solid var(--color-brand-1);
 	border-radius: 0;
+	outline: none;
+	box-shadow: none!important;
 }
-.btn.btn-secondary:hover {
-	background: var(--color-brand-1);
+.btn.btn-secondary:hover,
+.btn.btn-secondary:active,
+.btn.btn-secondary:focus {
+	background-color: var(--color-brand-1)!important;
+	border: 1px solid var(--color-brand-1)!important;
 	color: var(--color-white);
 }
 /* START -------------- Form module --------------*/
@@ -338,7 +343,7 @@ ul.menu-header {
 	display: inline-block;
 	list-style: none;
 	margin-bottom: 0;
-	padding-inline-start: 0;
+	padding-inline-start: 0px;
 }
 ul.menu-header > li {
 	display: inline-block;
@@ -461,8 +466,8 @@ ul.menu-header > li:hover a {
 	transform: scale(1.2);
 }
 .social-links-container ul li a i {
-    font-size: 40px;
-    transform: scale(1);
+	font-size: 40px;
+	transform: scale(1);
 	transition: all 0.8s ease;
 }
 
@@ -521,6 +526,10 @@ ul.menu-header > li:hover a {
 	footer .newsletter-container .newsletter-form .form-input.newsletters {
 		min-width: unset;
 		margin-bottom: 10px;
+		text-align: center;
+	}
+	footer .newsletter-container .newsletter-form .form-input.newsletters::placeholder {
+		text-align: center;
 	}
 }
 
