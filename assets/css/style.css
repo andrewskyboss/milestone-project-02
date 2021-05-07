@@ -151,8 +151,97 @@ section .gallery-container {
 }
 section .gallery-container .gallery-row-single-image {
 	padding: 10px;
+	transform: scale(1);
+	overflow: hidden;
+	transition: transform 0.8s ease;
 }
+section .gallery-container .gallery-row-single-image:hover img {
+	transform: scale(1.2);
+	transition: transform 0.8s ease;
+}
+section #lightBox {
 
+}
+section .modal {
+	position: fixed;
+	display: block;
+	opacity: 0;
+	transform: translateY(-100%) scale(1);
+	transition: all 0.8s ease;
+	pointer-events: none;
+}
+section .modal.show {
+	display: block;
+	opacity: 1;
+	background-color: rgba(4,167, 119, 0.8);
+	pointer-events: auto;
+	transform: translateY(0%) scale(1);
+	transition: all 0.8s ease;
+}
+section .modal .modal-img-box {
+	position: relative;
+	height: 90vh;
+}
+section .modal .modal-img-box .slide {
+	position: absolute;
+	width: 10%;
+	z-index: 2;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .modal .modal-img-box .slide .fa {
+	font-size: 60px;
+	color: var(--color-white);
+}
+section .modal .modal-img-box .slide.prev {
+	left: 0;
+}
+section .modal .modal-img-box .slide.next {
+	right: 0;
+}
+section .modal .details {
+	position: absolute;
+	height: 10vh;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .modal .details .title {
+	display: flex;
+	font-size: 30px;
+	color: var(--color-white);
+}
+section .modal .details .title .current-image,
+section .modal .details .title .total-images {
+	font-weight: 500;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+section .modal .modal-img-box .close-icon {
+	position: absolute;
+	color: var(--color-white);
+	font-size: 50px;
+	font-weight: 100;
+	padding: 20px;
+	top: 0;
+	right: 10%;
+}
+section .modal .modal-img-box .modal-box-image {
+	position: absolute;
+	height: 80vh;
+	width: 80%;
+	left: 10%;
+	top: 10vh;
+	opacity: 0;
+	transition: apacity 0.5s ease;
+}
+section .modal .modal-img-box .modal-box-image.active {
+	opacity: 1;
+}
 .section-title {
 	text-align: center;
 	margin-top: 40px;
@@ -500,6 +589,9 @@ ul.menu-header > li:hover a {
 	.mobile-menu {
 		display: block;
 	}
+	h1 {font-size: 40px;}
+	h2 {font-size: 35px;}
+	h3 {font-size: 27px;}
 }
 
 @media (max-width: 991px) {
