@@ -150,14 +150,18 @@ section .gallery-container {
 	justify-content: center;
 }
 section .gallery-container .gallery-row-single-image {
-	padding: 10px;
-	transform: scale(1);
+	padding: 0px;
+	margin: 10px;
+	max-width: 32%;
 	overflow: hidden;
+}
+section .gallery-container .gallery-row-single-image img {
+	transform: scale(1);
 	transition: transform 0.8s ease;
 }
 section .gallery-container .gallery-row-single-image:hover img {
 	transform: scale(1.2);
-	transition: transform 0.8s ease;
+	/*transition: transform 0.8s ease;*/
 }
 section #lightBox {
 
@@ -173,7 +177,8 @@ section .modal {
 section .modal.show {
 	display: block;
 	opacity: 1;
-	background-color: rgba(4,167, 119, 0.8);
+	/*background-color: rgba(4,167, 119, 0.8);*/
+	background-color: rgba(41,110, 180, 0.8);
 	pointer-events: auto;
 	transform: translateY(0%) scale(1);
 	transition: all 0.8s ease;
@@ -223,12 +228,25 @@ section .modal .details .title .total-images {
 }
 section .modal .modal-img-box .close-icon {
 	position: absolute;
-	color: var(--color-white);
+	color: transparent;
 	font-size: 50px;
 	font-weight: 100;
 	padding: 20px;
 	top: 0;
 	right: 10%;
+}
+section .modal .modal-img-box .close-icon:after {
+	background-image: url(../images/close-white.svg);
+	transition: transform 0.5s ease-in;
+	content: "";
+	position: absolute;
+	left: 25%;
+	height: 34%;
+	width: 50%;
+	top: 33%;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 section .modal .modal-img-box .modal-box-image {
 	position: absolute;
@@ -236,11 +254,13 @@ section .modal .modal-img-box .modal-box-image {
 	width: 80%;
 	left: 10%;
 	top: 10vh;
-	opacity: 0;
-	transition: apacity 0.5s ease;
+	/*opacity: 0;*/
+	/*transition: apacity 0.5s ease;*/
+	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 section .modal .modal-img-box .modal-box-image.active {
-	opacity: 1;
+	/*opacity: 1;*/
+	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 .section-title {
 	text-align: center;
