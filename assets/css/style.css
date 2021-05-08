@@ -270,6 +270,10 @@ section .modal .modal-img-box .modal-box-image.active {
 .section-title h1 {
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
+.section-title h2 {
+	margin-top: 20px;
+	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
+}
 .image-boxes-2-col {
 	width: 100%;
 }

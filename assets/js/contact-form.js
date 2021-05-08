@@ -2,7 +2,7 @@
 
 window.onload = function() {
 
-	// document.getElementById('confirmation-title').textContent('');
+	document.getElementById('confirmation-title').textContent = '';
 
 	document.getElementById('contact-us-form').addEventListener('submit', function(event) {
 	event.preventDefault();
