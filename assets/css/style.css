@@ -33,10 +33,10 @@ h2 {
 	color: var(--color-brand-5);
 }
 h3 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Abril Fatface', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
-	color: var(--color-brand-4);
+	color: var(--color-brand-2);
 }
 p {
 	text-align: justify;
@@ -304,7 +304,7 @@ section .modal .modal-img-box .modal-box-image.active {
 
 section .map-container {
 	width: 100%;
-	height: 50vh;
+	height: 70vh;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -313,9 +313,13 @@ section .map-container .map-container-box {
 	height: 100%;
 	margin: 0;
 }
+#map > div > div > div:nth-child(1) > div:nth-child(3) > div > div:nth-child(3) > div {
+	width: 40px;
+	height: auto;
+}
 section .search-container {
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -329,7 +333,7 @@ section .search-container .search-container-box {
 	background-color: var(--color-brand-3);
 }
 section .search-container .search-container-box .search-box.controls {
-	height: 100px;
+	height: 50%;
 	width: 50%;
 	text-align: center;
 }
