@@ -36,9 +36,13 @@ function newsletterMail(newsletterForm) {
 	.then (
 		function(response) {
 			console.log("SUCCESS", response);
+			$('.form-input').val('');
+			document.getElementById('confirmation-title-email').textContent = 'Thank You for newsletter signing up';
 		},
 		function(error) {
 			console.log("FAILED . . .", error);
+			$('.form-input').val('');
+			document.getElementById('confirmation-title-email').textContent = 'Sorry, something went wrong. Try Later';
 		}
 	);
 	return true;

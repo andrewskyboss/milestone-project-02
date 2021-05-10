@@ -73,7 +73,9 @@ footer .footer-container {
 }
 footer .newsletter-container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 footer .newsletter-container .newsletter-form {
 	display: inline-flex;
@@ -82,7 +84,7 @@ footer .newsletter-container .newsletter-form {
 }
 footer .newsletter-container .newsletter-form .form-input.newsletters {
 	margin-bottom: 0;
-	min-width: 230px;
+	min-width: 340px;
 	border: 1px solid var(--color-brand-1);
 	margin-right: -1px;
 }
@@ -97,7 +99,6 @@ footer .newsletter-container .newsletter-form button {
 .hero-image {
 	height: 90vh;
 	overflow: hidden;
-	/*float: left;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -108,6 +109,10 @@ footer .newsletter-container .newsletter-form button {
 
 .carousel.carousel-fade {
 	height: 90vh;
+}
+.hero-image.contact,
+.carousel.carousel-fade.contact {
+	height: 50vh;
 }
 .carousel.carousel-fade .carousel-inner {
 	height: 100%;
@@ -228,12 +233,19 @@ section .modal .details {
 	width: 100%;
 	bottom: 0;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-section .modal .details .title {
+section .modal .details .image-title-h3 {
 	display: flex;
 	font-size: 30px;
+	text-transform: capitalize;
+	color: var(--color-white);
+}
+section .modal .details .title {
+	display: flex;
+	font-size: 20px;
 	color: var(--color-white);
 }
 section .modal .details .title .current-image,
@@ -264,9 +276,12 @@ section .modal .modal-img-box .close-icon:after {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+section .modal .modal-img-box .close-icon:hover:after  {
+	transform: rotate(90deg);
+}
 section .modal .modal-img-box .modal-box-image {
 	position: absolute;
-	height: 80vh;
+	height: 78vh;
 	width: 80%;
 	left: 10%;
 	top: 10vh;
@@ -296,6 +311,10 @@ section .modal .modal-img-box .modal-box-image.active {
 .image-boxes-2-col .image-boxes-2-row {
 	margin-left: 0;
 	margin-right: 0;
+	display: flex;
+}
+.image-boxes-2-col .image-boxes-2-row.hidden {
+	display: none;
 }
 
 .image-box-image {
@@ -463,10 +482,10 @@ form .form-input.textarea {
 
 .header-bar-1 {
 	position: relative;
-	top: 45px;
+	top: 50px;
 	width: 80%;
 	left: 10%;
-	text-align: right;
+	text-align: center;
 }
 .menu-header-container {
 	display: inline-block;
@@ -482,13 +501,14 @@ ul.menu-header > li {
 	display: inline-block;
 	position: relative;
 	line-height: initial;
+	margin-right: -5px;
 }
 ul.menu-header > li.menu-item.active a {
 	color: var(--color-brand-5);
 	font-weight: 600;
 }
 ul.menu-header > li a {
-	padding: 20px 15px;
+	padding: 15px 15px;
 	color: var(--color-brand-6);
 	transition: all 0.8s ease;
 }

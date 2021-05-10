@@ -5,13 +5,14 @@ const gallery = document.querySelectorAll(".gallery-container .gallery-row-singl
 	modalBox = document.querySelector(".modal"),
 	modalImage = modalBox.querySelector("img"),
 	closeModal = document.querySelector(".close-icon"),
+	currentImageTitle = modalBox.querySelector("h3.image-title-h3"),
 	currentImage = modalBox.querySelector(".current-image"),
 	totalImages = modalBox.querySelector(".total-images");
 
 window.onload = () => {
 	for (let i = 0; i < gallery.length; i++) {
 		totalImages.textContent = gallery.length;
-		console.log(" gallery length " +gallery.length);
+		console.log(" gallery length " + gallery.length);
 		let imgIndex = i;
 		let tempImgIndex;
 
@@ -23,6 +24,9 @@ window.onload = () => {
 			function getImgAddress(){
 				currentImage.textContent = imgIndex + 1;
 				let selectedImgAddress = gallery[imgIndex].querySelector("img").src;
+				let selectedImgTitle = gallery[imgIndex].querySelector("h3.gallery-item-title").textContent;
+				console.log(selectedImgTitle);
+				currentImageTitle.innerHTML = selectedImgTitle;
 				modalImage.src = selectedImgAddress;
 				modalImage.animate([
 					{ transform: 'translateY(10px)', opacity: '0.5' },
