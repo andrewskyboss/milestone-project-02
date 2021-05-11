@@ -181,8 +181,9 @@ As well animation is added to the following elements:
 
 The wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) software. It was a part of Scope Plane of design process.
 - Wireframes links are presented below:
-- [Link to a Wireframes for a Desctop view](assets/documents/A.Cybovskij-Desctop.pdf)
-- [Link to a Wireframes for Tablet and Mobile views ](assets/documents/A.Cybovskij-Tablet-mobile.pdf)
+- [Link to a Wireframes for a Desctop view](assets/documents/desctop.pdf)
+- [Link to a Wireframes for Tablet view ](assets/documents/tab.pdf)
+- [Link to a Wireframes for Mobile view ](assets/documents/mobile.pdf)
 
 ### Features
 
