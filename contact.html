@@ -10,12 +10,12 @@
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Hey Travel | Contact Us</title>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
-        })();
-    </script>
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script>
+		(function(){
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -114,7 +114,7 @@
 			<div class="container-fluid newsletter-container">
 				<h3 id="confirmation-title-email" class="confirm-title-email"></h3>
 				<form class="newsletter-form" onsubmit="return newsletterMail(this);" method="POST" >
-					<input type="text" name="emailNewsletters" id="emailNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
+					<input type="text" name="emailNewsletters" id="emailNewsletters" class="form-input newsletters" placeholder="Enter email to sign up for our newsletter" required>
 					<button type="submit" class="btn btn-secondary">Sign Up</button>
 				</form>
 			</div>

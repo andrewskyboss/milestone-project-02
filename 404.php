@@ -15,13 +15,13 @@
 	<header class="container-fluid">
 		<div class="row header-row">
 			<div class="header-logo">
-				<a href="#" class="header-logo-link" title="Hey Travel">
+				<a href="index.html" class="header-logo-link" title="Hey Travel">
 					<img src="assets/images/logo.svg" alt="logo icon"></a>
 			</div>
 			<nav class="header-bar-1">
 				<div class="menu-header-container" id="main-menu">
 					<ul class="menu-header">
-						<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+						<li class="menu-item"><a class="menu-link" href="index.html" title="Home">Home</a></li>
 						<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 						<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 						<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -32,14 +32,13 @@
 			<div class="header-tags left">
 				<a class="header-tag mobile-menu-trigger mobile-menu-hidden" >
 					<i class="fa fa-bars fa-icon-mobile-menu-hidden"></i>
-					<!--<i class="fa fa-times fa-icon-mobile-menu-visible"></i>-->
 				</a>
 			</div>
 			<div class="mobile-menu hidden">
 				<nav class="navbar">
-					<div class="menu-header-container" id="main-menu">
+					<div class="menu-header-container" id="main-menu-mobile">
 						<ul class="menu-header">
-							<li class="menu-item"><a class="menu-link" href="index.html" title="Destinations">Home</a></li>
+							<li class="menu-item"><a class="menu-link" href="index.html" title="Home">Home</a></li>
 							<li class="menu-item"><a class="menu-link" href="destinations.html" title="Destinations">Destinations</a></li>
 							<li class="menu-item"><a class="menu-link" href="gallery.html" title="Gallery">Gallery</a></li>
 							<li class="menu-item"><a class="menu-link" href="about.html" title="About Us">About Us</a></li>
@@ -55,21 +54,20 @@
 			<div class="hero-image-title">
 				<h2 >Apologies - Page Not Found</h2>
 			</div>
-
 	<!-- Hero Slider -->
 			<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="assets/images/travel-ireland-004.jpg" alt="travel poster, globe with attractions">
+						<img class="d-block w-100" src="assets/images/travel-ireland-006.jpg" alt="cliffs of moher under cloudy sky ireland">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-ireland-003.jpg" alt="First slide">
+						<img class="d-block w-100" src="assets/images/travel-ireland-007.jpg" alt="cliffs of moher ireland travel traveling sea nature tourism ocean">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-water-004.jpg" alt="Second slide">
+						<img class="d-block w-100" src="assets/images/travel-ireland-002.jpg" alt="limerick bridge ireland">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/travel-water-005.jpg" alt="Third slide">
+						<img class="d-block w-100" src="assets/images/travel-ireland-003.jpg" alt="kylemore abbey ireland">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -96,11 +94,8 @@
 					</div>
 					<div class="image-box-content col-lg-4 col-sm-12">
 						<h2 class="title box-title">Homepage</h2>
-						<h3 class="subtitle"></h3>
 						<p class="description"></p>
-						<button class="btn btn-primary">
-							<a href="index.html" title="">View More</a>
-						</button>
+						<a class="btn btn-primary" href="index.html" title="">View More</a>
 					</div>
 				</div>
 			</div>
@@ -109,9 +104,10 @@
 	<footer class="container-fluid">
 		<div class="row footer-container">
 			<div class="container-fluid newsletter-container">
-				<form class="newsletter-form" method="POST" onsubmit="return sendMail(this);">
-					<input type="email" name="emailNewsletters" id="emailAddressNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
-					<button type="submit" class="btn btn-secondary" required>Sign Up</button>
+				<h3 id="confirmation-title-email" class="confirm-title-email"></h3>
+				<form class="newsletter-form" onsubmit="return newsletterMail(this);" method="POST" >
+					<input type="text" name="emailNewsletters" id="emailNewsletters" class="form-input newsletters" placeholder="Enter email to sign up for our newsletter" required>
+					<button type="submit" class="btn btn-secondary">Sign Up</button>
 				</form>
 			</div>
 			<div class="container-fluid social-links-container">
@@ -140,7 +136,6 @@
 							<span class="sr-only">Github</span>
 						</a>
 					</li>
-
 					<li class="list-inline-item">
 						<a target="_blank" href="https://codepen.io">
 							<i class="fa fa-codepen" aria-hidden="true" title="Codepen"></i>
@@ -151,13 +146,13 @@
 			</div>
 		</div>
 	</footer>
-
+	<!-- Optional JavaScript -->
+	<!-- jQuery, Popper.js, Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="assets/js/script.js"></script>
 
 </body>
-<!-- Optional JavaScript -->
-<!-- jQuery, Popper.js, Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+
 </html>

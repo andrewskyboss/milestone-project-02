@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Hey Travel | Milestone Project 2</title>
-    <meta name="description" content="Hey Travel | Ireland Travel | Milestone Project 2" />
+	<title>Hey Travel | Milestone Project 2</title>
+	<meta name="description" content="Hey Travel | Ireland Travel | Milestone Project 2" />
 	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
@@ -20,13 +20,13 @@
 	<meta property="og:site_name" content="Hey Travel" />
 	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-water-001.jpg" />
 	<meta property="og:image:width" content="1920" />
-    <meta property="og:image:height" content="1080" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-    (function() {
-    emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
-    })();
-    </script>
+	<meta property="og:image:height" content="1080" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -163,8 +163,9 @@
 	<footer class="container-fluid">
 		<div class="row footer-container">
 			<div class="container-fluid newsletter-container">
-				<form class="newsletter-form" method="POST" onsubmit="return sendMail(this);">
-					<input type="email" name="emailNewsletters" id="emailAddressNewsletters" class="form-input newsletters" placeholder="Newsletters" required>
+				<h3 id="confirmation-title-email" class="confirm-title-email"></h3>
+				<form class="newsletter-form" onsubmit="return newsletterMail(this);" method="POST" >
+					<input type="text" name="emailNewsletters" id="emailNewsletters" class="form-input newsletters" placeholder="Enter email to sign up for our newsletter" required>
 					<button type="submit" class="btn btn-secondary">Sign Up</button>
 				</form>
 			</div>
