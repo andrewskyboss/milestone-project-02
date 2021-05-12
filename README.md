@@ -278,45 +278,10 @@ Features to be implemented in the future:
 ### Lighthouse performance
 ![Lighthouse Performance](assets/images/lighthouse.PNG)
 
-### Cross Browser and Cross Device Testing
-
-Testing was done for the following devices:
-
-| TOOL / Device  |  BROWSER |  OS |  SCREEN WIDTH |
-|---|---|---|---|
-| Desktop  | Edge  | windows 10  |  1920 x 1080 |
-| Desktop  | Chrome | windows 10  |  1920 x 1080 |
-|  Desktop | Opera  |  windows 10 | 1920 x 1080  |
-|  Desktop | Firefox  |  windows 10 | 1920 x 1080  |
-| Desktop  | IE  | windows 10  |  1920 x 1080 |
-| Laptop  | Edge | windows 10  |  1366 x 768 |
-| Laptop | Chrome  |  windows 10 | 1366 x 768  |
-| Laptop  | Opera  | windows 10  |  1366 x 768 |
-| Laptop  | Firefox  | windows 10  |  1366 x 768 |
-| Laptop  | IE | windows 10  |  1366 x 768 |
-|  MP Samsung S10+ | Chrome  |  android | 1440 x 3040  |
-|  MP Samsung S10+ | Samsung  |  android | 1440 x 3040  |
-|  ipad | Chrome  |  iOs | 1024 x 768  |
-|  ipad | Safari  |  iOs | 1024 x 768  |
-
-
-
-### Following bugs were detected:
-
-- Portfolio page, when click the logo (name) the page is redirected to a non-existing page instead of staying on the page it’s on. (404 page) - Fixed.
-- Portfolio page, were found four JavaScript console errors. – There are four iframes to Adobe portfolios. Errors are from the Adobe server. - Not fixed.
-- On super wide screens content gets a bit too spread out. - Fixed by adding max-width for the container-fluid class.
-- Footer download button were opening temporary pdf document. – Fixed by adding CV pdf document.
-- On mobile devices, the padding around the heading and logo take up a lot of space. – Fixed by adding media queries to a relevant device size and reducing font size and padding.
-- Footer email scan image have had no alt text. - Fixed.
-- The mobile navigation showed too much of underlying text. - Fixed by adding opacity to the background-color property.
-- Contact Form was too narrow on mobile devices. – Fixed by adding relevant media query and increasing form’s width to 70% and 90%.
-- Contact page and Experience Page, on mobile devices have had an extraordinary amount of space between the hero image and the h1. - Fixed.
-- Mobile menu on click, has the movement to the right at first before being placed below the logo divider bar. – Not fixed. It’s third party Bootstrap JavaScript code.
 
 ## Code validity
-  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
-  - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project.
+  - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project.
   - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
   - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was using to validate all tags
 
