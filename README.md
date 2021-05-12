@@ -234,6 +234,15 @@ Features to be implemented in the future:
 - Markdown table generator
 - Markdown table of contents
 
+### Frameworks and Extensions
+- [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+### Fonts
+- Google Fonts:
+  - [Abril Fatface font can be found here](https://fonts.google.com/specimen/Abril+Fatface)
+  - [Quicksand  font can be found here](https://fonts.google.com/specimen/Quicksand)
+
+
 ### Programing Languages
 - [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
 - [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance.
@@ -253,27 +262,6 @@ Features to be implemented in the future:
 
   - Testing documentation can be found on a separate [document](assets/documents/Testing.md)
 
-
-### Frameworks and Extensions
-- [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
-### Fonts
-- Google Fonts:
-  - [Abril Fatface font can be found here](https://fonts.google.com/specimen/Abril+Fatface)
-  - [Quicksand  font can be found here](https://fonts.google.com/specimen/Quicksand)
-
-
-### Testing stories from UX perspectives:
-
-- As an Employer and first time user I want to easy navigate and get all information I need.
-  1. Navigation is fixed to the header, I can easily 
-  2. Potential employee name is on the header too.
-  3. I can easily get access to the contact page.
-  4. I can download printable version of CV
-
-- As a Freelancer's Customer I want to view past client’s works.
-  1. Would be great to have some testimonials.
-  2. Navigation is clear and easy to access.
 
 ### Lighthouse performance
 ![Lighthouse Performance](assets/images/lighthouse.PNG)

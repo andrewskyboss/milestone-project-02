@@ -58,10 +58,23 @@ Testing was done for the following devices:
 	- Mobile menu on click, has the movement to the right at first before being placed below the logo divider bar. – Not fixed. It’s third party Bootstrap JavaScript code.
 
 
+
 ## RESPONSIVENESS
 - Below is a picture of site that shows it in responsive states. 
 [link to check a website to be responsive](http://ami.responsivedesign.is)
 ![picture of site](assets/images/responsive-1.PNG)
+
+### Testing stories from UX perspectives:
+
+- As an Employer and first time user I want to easy navigate and get all information I need.
+  1. Navigation is fixed to the header, I can easily 
+  2. Potential employee name is on the header too.
+  3. I can easily get access to the contact page.
+  4. I can download printable version of CV
+
+- As a Freelancer's Customer I want to view past client’s works.
+  1. Would be great to have some testimonials.
+  2. Navigation is clear and easy to access.
 
 
 
