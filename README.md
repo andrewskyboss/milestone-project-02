@@ -3,9 +3,8 @@
 # milestone-project-02 
 #Interactive Front-End Development / Hey Travel
 
-- ![logo](assets/images/logo.png)
-- ![logo](assets/images/homepage.PNG)
-- Andrew Cybossky Hey Travel website. [Live site on Github Pages](https://andrewskyboss.github.io/milestone-project-02)
+![logo](assets/images/homepage.PNG)
+[Live site on Github Pages](https://andrewskyboss.github.io/milestone-project-02)
 
 # Author
 Andrej Cybovskij
@@ -356,7 +355,7 @@ To clone this project into Gitpod you will need to do following steps:
 - Gallery Responsive Image Lightbox were created using [CodingNepal tutorials](https://www.youtube.com/watch?v=rz_8NDyC6Xk)
 - Destinations Map were created using [
 Sam Codes tutorials](https://www.youtube.com/watch?v=uPhWSyRqQDA), [
-Google Map Documentation](https://developers.google.com/maps/documentation/javascript/overview), [
+Google Map Documentation](https://developers.google.com/maps/documentation/javascript/overview) and [
 Google Info Window Documentation](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max)
 - Looping through JSON Data to Generate HTML were created using [tutorials](https://stackoverflow.com/questions/34907982/looping-through-json-data-to-generate-html)
 - Contact Us [Email Services](https://www.emailjs.com) were created using [Code Institute Tutorials](https://www.youtube.com/watch?v=KaAeh4Risrc&t=234s)
@@ -366,5 +365,5 @@ Google Info Window Documentation](https://developers.google.com/maps/documentati
 
 I would like to thank:
 - My mentor [Malia Havlicek](https://code-institute-room.slack.com/team/UERRFE54G) for help in testing, review and invaluable advices.
-- 
+
 
