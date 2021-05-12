@@ -1,7 +1,7 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/andrewskyboss/milestone-project-02)
 
 # milestone-project-02 
-#Interactive Front-End Development / Hey Travel
+# Interactive Front-End Development / Hey Travel
 
 ![logo](assets/images/homepage.PNG)
 [Live site on Github Pages](https://andrewskyboss.github.io/milestone-project-02)
@@ -240,15 +240,7 @@ Features to be implemented in the future:
 - [HTML](https://www.w3schools.com/html/default.asp) The project uses **HTML** to define DOM elements.
 - [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown
 
-### Frameworks and Extensions
-- [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
-### Fonts
-- Google Fonts:
-  - [Abril Fatface font can be found here](https://fonts.google.com/specimen/Abril+Fatface)
-  - [Quicksand  font can be found here](https://fonts.google.com/specimen/Quicksand)
-
-### Tools and Resources
+## Tools and Resources
 - [Wirefames by Balsamiq](https://balsamiq.com/wireframes/) 
 - [Color palette resources](https://coolors.co) 
 - [Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
@@ -257,11 +249,19 @@ Features to be implemented in the future:
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [Youtube](https://www.youtube.com/watch?v=rz_8NDyC6Xk)- General resource.
 
-## Code validity
-  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
-  - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
-  - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
-  - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was using to validate all tags 
+## Testing
+
+  - Testing documentation can be found on a separate [document](assets/documents/Testing.md)
+
+
+### Frameworks and Extensions
+- [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+### Fonts
+- Google Fonts:
+  - [Abril Fatface font can be found here](https://fonts.google.com/specimen/Abril+Fatface)
+  - [Quicksand  font can be found here](https://fonts.google.com/specimen/Quicksand)
+
 
 ### Testing stories from UX perspectives:
 
@@ -313,6 +313,17 @@ Testing was done for the following devices:
 - Contact Form was too narrow on mobile devices. – Fixed by adding relevant media query and increasing form’s width to 70% and 90%.
 - Contact page and Experience Page, on mobile devices have had an extraordinary amount of space between the hero image and the h1. - Fixed.
 - Mobile menu on click, has the movement to the right at first before being placed below the logo divider bar. – Not fixed. It’s third party Bootstrap JavaScript code.
+
+## Code validity
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
+  - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
+  - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
+  - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was using to validate all tags
+
+## Version Control
+ - Used Git for version control.
+ - Additional copy vere created localy
+ - Constantly versions vere updated
 
 ## Deployment
 
