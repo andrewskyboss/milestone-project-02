@@ -273,7 +273,7 @@ Features to be implemented in the future:
   2. Navigation is clear and easy to access.
 
 ### Lighthouse performance
-![Lighthouse Performance](assets/images/lighthouse-01.PNG)
+![Lighthouse Performance](assets/images/lighthouse.PNG)
 
 ### Cross Browser and Cross Device Testing
 
@@ -315,16 +315,16 @@ Testing was done for the following devices:
 
 This project was developed using open source Gitpod automated and ready-to-code development environments and pushed to GitHub.
 To deploy this project, the following steps were taken:
-- Login into GitHub
-- From the list of Repositories select milestone-project-02
-- From the top menu items, select last element “Settings”
-- Scroll down to the Pages section.
-- Under title “Source” click drop down menu and select Branch: main and save
-- Return to the Code item and refresh page
-- The website is now deployed
-- From the top right side, after About section, click on gear icon
-- Inside the pop up window, under Website title add link to the deployed website and save
-- Deployed website link should appears on the right side.
+1. Login into GitHub
+2. From the list of Repositories select milestone-project-02
+3. From the top menu items, select last element “Settings”
+4. Scroll down to the Pages section.
+5. Under title “Source” click drop down menu and select Branch: main and save
+6. Return to the Code item and refresh page
+7. The website is now deployed
+8. From the top right side, after About section, click on gear icon
+9. Inside the pop up window, under Website title add link to the deployed website and save
+10. Deployed website link should appears on the right side.
 
 
 How to run project locally:
