@@ -1,11 +1,11 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/andrewskyboss/milestone-project-02)
 
-# Milestone-project-02
+# milestone-project-02 
+#Interactive Front-End Development / Hey Travel
 
-# Interactive Front-End Development / Hey Travel
-
- ![logo](assets/images/logo.png)
- - Andrew Cybossky Hey Travel website. [Link to a deployed project](https://andrewskyboss.github.io/milestone-project-02)
+- ![logo](assets/images/logo.png)
+- ![logo](assets/images/homepage.PNG)
+- Andrew Cybossky Hey Travel website. [Live site on Github Pages](https://andrewskyboss.github.io/milestone-project-02)
 
 # Author
 Andrej Cybovskij
@@ -153,26 +153,26 @@ By the [empower-yourself-with-color-psychology.com website](https://www.empower-
 #### Design Elements
 List of elements used on website: 
 - top menu (desktop navigation)
+- mobile (side navigation)
 - footer
 - containers/section
 - buttons
 - text input
 - textarea inputs
-- progress bar
-- dropdowns (mobile navigation)
 - images (.png, .jpg, .svg)
 - icons
-- iframes
+
 
 #### Animations and Transitions
 
-- Project has fade in animation for h1 and h2 titles.
+- Project has fade in from the bottom animation for h1, h2 and h3 titles.
 
 As well animation is added to the following elements:
-- Image-links buttons, 
-- Portfolio iframes, 
-- Work history item, 
-- Skill item
+- Image-lightbox - sliding from/to the top, 
+- Images, fade in from the bottom animation inside the Gallery Light box, 
+- Rotation animation for the closing button on Gallery Light box, 
+- Image zoom in effect on Images in the Gallery.
+- Location icons 
 
  Its draws attention to them. As well it's shows on About Me modules as a hover animation and images have a scale effect. 
 - Hover state is used for all icons and logos. On hover icons are changing color and have a scale transformation.
@@ -317,7 +317,7 @@ Testing was done for the following devices:
 This project was developed using open source Gitpod automated and ready-to-code development environments and pushed to GitHub.
 To deploy this project, the following steps were taken:
 - Login into GitHub
-- From the list of Repositories select milestone-project-01
+- From the list of Repositories select milestone-project-02
 - From the top menu items, select last element “Settings”
 - Scroll down to the GitHub Pages section.
 - Under title “Source” click drop down menu and select andrewskyboss/gitpod-setup
@@ -336,12 +336,35 @@ To clone this project into Gitpod you will need to do following steps:
 
 ## Credits
 
+### Content
+
+- Country information was copied from the Wikipedia website pages:
+ - [Ireland](https://en.wikipedia.org/wiki/Ireland)
+ - [Germany](https://en.wikipedia.org/wiki/Germany)
+ - [France](https://en.wikipedia.org/wiki/France)
+ - [Italy](https://en.wikipedia.org/wiki/Italy)
+ - [Spain](https://en.wikipedia.org/wiki/Spain)
+
 ### Media
 
-- [Images were taken from the Megapixl resources](https://www.megapixl.com)
+- The images used in this project were obtained from the[Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
-- [Animation generator](https://animista.net/)
+
+### Code Snippets and Tutorials
+
+- Carousel slideshow adopted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/)
+- Gallery Responsive Image Lightbox were created using [CodingNepal tutorials](https://www.youtube.com/watch?v=rz_8NDyC6Xk)
+- Destinations Map were created using [
+Sam Codes tutorials](https://www.youtube.com/watch?v=uPhWSyRqQDA), [
+Google Map Documentation](https://developers.google.com/maps/documentation/javascript/overview), [
+Google Info Window Documentation](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max)
+- Looping through JSON Data to Generate HTML were created using [tutorials](https://stackoverflow.com/questions/34907982/looping-through-json-data-to-generate-html)
+- Contact Us [Email Services](https://www.emailjs.com) were created using [Code Institute Tutorials](https://www.youtube.com/watch?v=KaAeh4Risrc&t=234s)
+
 
 ### Acknowledgments
-- My appreciate and Big Thank You to my Mentor [Malia Havlicek](https://code-institute-room.slack.com/team/UERRFE54G) for help in testing, review and invaluable advices.
+
+I would like to thank:
+- My mentor [Malia Havlicek](https://code-institute-room.slack.com/team/UERRFE54G) for help in testing, review and invaluable advices.
+- 
 
