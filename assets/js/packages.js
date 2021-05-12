@@ -61,7 +61,7 @@ sourceData = {
 		"Img": "assets/images/france-02.jpg",
 		"Alt": "kilkenny castle",
 	}]
-}
+};
 
 function openPackages(key) {
 	let classId = key;
@@ -118,7 +118,7 @@ function openPackages(key) {
 		
 	}
 
-}
+};
 
 
 

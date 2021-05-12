@@ -257,9 +257,11 @@ Features to be implemented in the future:
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [Youtube](https://www.youtube.com/watch?v=rz_8NDyC6Xk)- General resource.
 
-## Testing and code validity
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
-- [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
+## Code validity
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
+  - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
+  - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
+  - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was using to validate all tags 
 
 ### Testing stories from UX perspectives:
 

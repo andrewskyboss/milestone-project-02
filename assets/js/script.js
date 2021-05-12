@@ -2,7 +2,7 @@
 /*----------- Carousel Bootstrap ----------*/
 $('.carousel').carousel({
   interval: 2000
-})
+});
 
 /*----------- Mobile menu Open Close ----------*/
 $('body').on('click', '.mobile-menu-trigger', function(e) {

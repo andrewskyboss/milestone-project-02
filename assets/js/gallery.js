@@ -90,9 +90,9 @@ window.onload = () => {
 				prevButton.style.display = "flex";
 				nextButton.style.display = "flex";
 				document.querySelector("body").style.overflow = "auto";
-			}
-		}
+			};
+		};
 	}
-}
+};
 
 
