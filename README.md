@@ -245,20 +245,21 @@ Features to be implemented in the future:
 
 ### Fonts
 - Google Fonts:
-  - [Cinzel font can be found here](https://fonts.google.com/specimen/Cinzel)
-  - [Raleway font can be found here](https://fonts.google.com/specimen/Raleway)
+  - [Abril Fatface font can be found here](https://fonts.google.com/specimen/Abril+Fatface)
+  - [Quicksand  font can be found here](https://fonts.google.com/specimen/Quicksand)
 
-### Tools
+### Tools and Resources
 - [Wirefames by Balsamiq](https://balsamiq.com/wireframes/) 
 - [Color palette resources](https://coolors.co) 
 - [Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 - [Markdown table of contents](http://ecotrust-canada.github.io/markdown-toc/)
-- [Animation generator](https://animista.net/)
+- [Google Map Documentation](https://developers.google.com/maps/documentation/javascript/overview)
+- [Stack Overflow](https://stackoverflow.com/) - General resource.
+- [Youtube](https://www.youtube.com/watch?v=rz_8NDyC6Xk)- General resource.
 
-
-## Testing
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. Relevant logos are placed on homepage footer
-- [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. 
+## Testing and code validity
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was using on this project. No errors found. Relevant logos are placed on homepage footer
+- [W3C Markup Validation Service](https://validator.w3.org/) was using on this project. Everything is coded properly, just has a warning about empty headings for JavaScript content populating
 
 ### Testing stories from UX perspectives:
 
@@ -352,7 +353,8 @@ To clone this project into Gitpod you will need to do following steps:
 
 - The images used in this project were obtained from the [Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
-- SVG icons were created by me
+- SVG icons - self-made on Adobe Illustrator
+- Image optimisation - self-made on Adobe Photoshop
 
 ### Code Snippets and Tutorials
 
