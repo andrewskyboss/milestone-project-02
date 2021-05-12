@@ -318,10 +318,14 @@ To deploy this project, the following steps were taken:
 - Login into GitHub
 - From the list of Repositories select milestone-project-02
 - From the top menu items, select last element “Settings”
-- Scroll down to the GitHub Pages section.
-- Under title “Source” click drop down menu and select andrewskyboss/gitpod-setup
-- On selected branch the page automatically should refresh.
+- Scroll down to the Pages section.
+- Under title “Source” click drop down menu and select Branch: main and save
+- Return to the Code item and refresh page
 - The website is now deployed
+- From the top right side, after About section, click on gear icon
+- Inside the pop up window, under Website title add link to the deployed website and save
+- Deployed website link should appears on the right side.
+
 
 How to run project locally:
 
@@ -346,8 +350,9 @@ To clone this project into Gitpod you will need to do following steps:
 
 ### Media
 
-- The images used in this project were obtained from the[Megapixl resources](https://www.megapixl.com)
+- The images used in this project were obtained from the [Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
+- SVG icons were created by me
 
 ### Code Snippets and Tutorials
 
@@ -365,5 +370,8 @@ Google Info Window Documentation](https://developers.google.com/maps/documentati
 
 I would like to thank:
 - My mentor [Malia Havlicek](https://code-institute-room.slack.com/team/UERRFE54G) for help in testing, review and invaluable advices.
+- CodingNepal for Gallery [tutorials](https://www.youtube.com/watch?v=rz_8NDyC6Xk)
+- Sam Codes for Map [tutorials](https://www.youtube.com/watch?v=uPhWSyRqQDA)
+- Code Institute for mail service [tutorials](https://www.youtube.com/watch?v=KaAeh4Risrc&t=234s)
 
 
