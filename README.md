@@ -1,11 +1,13 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/andrewskyboss/milestone-project-02)
 
-# milestone-project-02 Interactive Frontend Development / Hey Travel
-Milestone Project 02  Andrew Cybossky Hey Travel
-- ![logo](assets/images/logo.png)
-- [Link to a deployed project](https://andrewskyboss.github.io/milestone-project-02)  Andrew Cybossky Fake Travel website.
+# Milestone-project-02
 
-## Author
+# Interactive Front-End Development / Hey Travel
+
+ ![logo](assets/images/logo.png)
+ - Andrew Cybossky Hey Travel website. [Link to a deployed project](https://andrewskyboss.github.io/milestone-project-02)
+
+# Author
 Andrej Cybovskij
 
 ## Project Overview
