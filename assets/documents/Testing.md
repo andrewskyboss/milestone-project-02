@@ -62,7 +62,7 @@ Testing was done for the following devices:
 ## RESPONSIVENESS
 - Below is a picture of site that shows it in responsive states. 
 [link to check a website to be responsive](http://ami.responsivedesign.is)
-![picture of site](assets/images/responsive-1.PNG)
+![picture of site](../images/responsive-1.PNG)
 
 ### Testing stories from UX perspectives:
 
