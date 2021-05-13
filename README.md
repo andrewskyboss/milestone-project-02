@@ -25,11 +25,11 @@ Andrej Cybovskij
 ### Project Goals
 
 The goals of this project are:
-- Create a front-end web application based on the principles of user experience design, accessibility and responsivity.
-- Develop and implement a static front-end web application using HTML and CSS.
-- Create documentation to maximize code structure and organization  maintainability in the future.
-- Use version control software to maintain and share code with other developers in a easiest way.
-- Test and deploy web application to a Cloud platform for easy access from different sources.
+- Design, develop and implement a dynamic front-end web application using HTML, CSS and JavaScript.
+- Implement front-end interactivity, using core JavaScript, JavaScript libraries and/or Application Programming Interfaces (APIs)
+- Test an interactive front-end web application through the development, implementation and deployment stages
+- Deploy an interactive front-end web application to a Cloud platform
+- Demonstrate and document the development process through a version control system
 
 #### User Goals
 
