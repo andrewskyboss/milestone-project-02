@@ -310,8 +310,8 @@ To clone this project into Gitpod you will need to do following steps:
 
 - The images used in this project were obtained from the [Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
-- SVG icons - self-made on Adobe Illustrator
-- Image optimisation - self-made on Adobe Photoshop
+- SVG icons - self-made on [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
+- Image optimisation - self-made on [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 
 ### Code Snippets and Tutorials
 
