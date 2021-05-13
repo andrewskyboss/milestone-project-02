@@ -209,11 +209,12 @@ Header navigation is different on desktop and mobile versions.
 #### Future Features
 
 Features to be implemented in the future:
-- Add more design elements
-- Add interactivity possibility
-- Testimonials section or page
+- Add more destinations on the map
+- Add Image on the Country info window
+- Add search functionality
+- Add Flight booking functionality
+- Add atraction search functionality
 - More High quality images
-- Add coding portfolio (examples)
 
 ## Technologies Used
 
@@ -223,8 +224,11 @@ Features to be implemented in the future:
 - Images were taken from the Megapixl resources to get illustrations and logos for the website
 - Font Awesome Icons to represent social media in graphic way
 - Google Fonts
+- Google Maps
 - Markdown table generator
 - Markdown table of contents
+- Bootstrap - by linking via Bootstrap CDN to HTML Doc
+- jQuery - JavaScript library
 
 ### Frameworks and Extensions
 - [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
@@ -242,13 +246,15 @@ Features to be implemented in the future:
 - [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown
 
 ## Tools and Resources
-- [Wirefames by Balsamiq](https://balsamiq.com/wireframes/) 
+- [Wirefames by Balsamiq](https://balsamiq.com/wireframes/)
+- [Am I Responsive](http://ami.responsivedesign.is/) - Checks for responsive website and mockup image generator.
 - [Color palette resources](https://coolors.co) 
 - [Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 - [Markdown table of contents](http://ecotrust-canada.github.io/markdown-toc/)
+- [Youtube](https://www.youtube.com/watch?v=rz_8NDyC6Xk)- General resource.
 - [Google Map Documentation](https://developers.google.com/maps/documentation/javascript/overview)
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
-- [Youtube](https://www.youtube.com/watch?v=rz_8NDyC6Xk)- General resource.
+- [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 
 ## Testing
 
@@ -306,6 +312,7 @@ To clone this project into Gitpod you will need to do following steps:
  - [France](https://en.wikipedia.org/wiki/France)
  - [Italy](https://en.wikipedia.org/wiki/Italy)
  - [Spain](https://en.wikipedia.org/wiki/Spain)
+- Destinations information was copied from the [Expedia](https://www.expedia.ie/Europe.d6022967.Holidays-City-Breaks?pwaLob=wizard-package-pwa)
 
 ### Media
 
