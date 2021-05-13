@@ -24,7 +24,7 @@ Andrej Cybovskij
 
 ### Project Goals
 
-The goals of this project are:
+#### The goals of this project are:
 - Design, develop and implement a dynamic front-end web application using HTML, CSS and JavaScript.
 - Implement front-end interactivity, using core JavaScript, JavaScript libraries and/or Application Programming Interfaces (APIs)
 - Test an interactive front-end web application through the development, implementation and deployment stages
