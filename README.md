@@ -30,6 +30,7 @@ Andrej Cybovskij
 - Test an interactive front-end web application through the development, implementation and deployment stages
 - Deploy an interactive front-end web application to a Cloud platform
 - Demonstrate and document the development process through a version control system
+- Learn JavaScript theory and practically implement all gained knowledge
 
 #### User Goals
 
@@ -42,9 +43,9 @@ Common types of users are:
 - This website does not proposing any login system.
 
 #### Developer Goals
-- Create a front-end web application based on the principles of user experience design, accessibility and responsivity.
-- Develop and implement a static front-end web application using HTML and CSS.
-- Create project documentation.
+- Design and implement a front-end web application based on the best principles of user experience design, accessibility and responsivity.
+- Implement a dynamic front-end web application using HTML, CSS and JavaScript technologies.
+- Clearly document process for the future usage and information.
 - Use version control software to maintain and share code with other developers.
 - Test and deploy web application to a Cloud platform.
 - Demonstrate my abilities and knowledge i gained during my course.
@@ -267,7 +268,7 @@ Features to be implemented in the future:
 ## Version Control
  - Used Git for version control.
  - Additional copy vere created localy
- - Constantly versions vere updated
+ - Constantly versions were updated and merged
 
 ## Deployment
 
@@ -310,8 +311,8 @@ To clone this project into Gitpod you will need to do following steps:
 
 - The images used in this project were obtained from the [Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
-- SVG icons - self-made on [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
-- Image optimisation - self-made on [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
+- SVG icons - self-made on Adobe Illustrator
+- Image optimisation - self-made on Adobe Photoshop
 
 ### Code Snippets and Tutorials
 
