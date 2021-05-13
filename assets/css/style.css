@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
-
 :root {
   --color-brand-1: #296EB4;
   --color-brand-2: #04A777;
@@ -12,14 +11,12 @@
   --color-brand-6: #1B1725;
   --color-white: #ffffff;
 }
-
 body {
 	font-family: 'Quicksand', sans-serif;
 	color: var(--color-brand-6);
 	font-size: 16px;
 
 }
-
 h1 {
 	font-family: 'Abril Fatface', cursive;
 	color: var(--color-brand-1);
@@ -49,7 +46,7 @@ a:hover,
 a:active,
 a:focus {
 	text-decoration: none;
-	color: var(--color-brand-3);
+	color: var(--color-brand-5);
 }
 img {
     width: 100%;
@@ -90,12 +87,8 @@ footer .newsletter-container .newsletter-form .form-input.newsletters {
 	margin-right: -1px;
 }
 footer .newsletter-container .newsletter-form button {
-	/*color: var(--color-brand-6);
-	border: 1px solid var(--color-brand-1);
-	padding: 5px 40px;*/
 	height: 40px;
 }
-
 /*---------------- Hero Image module ----------------*/
 .hero-image {
 	height: 90vh;
@@ -196,14 +189,10 @@ section .gallery-container .gallery-row-single-image img {
 }
 section .gallery-container .gallery-row-single-image:hover img {
 	transform: scale(1.2);
-	/*transition: transform 0.8s ease;*/
 }
 section .gallery-container .gallery-row-single-image:hover .gallery-item-title {
 	opacity: 1;
 	animation: fade-in-from-bottom-animation 0.4s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
-}
-section #lightBox {
-
 }
 section .modal {
 	position: fixed;
@@ -331,12 +320,9 @@ section .modal .modal-img-box .modal-box-image {
 	width: 80%;
 	left: 10%;
 	top: 10vh;
-	/*opacity: 0;*/
-	/*transition: apacity 0.5s ease;*/
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 section .modal .modal-img-box .modal-box-image.active {
-	/*opacity: 1;*/
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 .section-title {
@@ -410,7 +396,12 @@ section .container-content {
 	margin-top: 40px;
 }
 section .container-content .container-content-box {
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section .container-content .container-content-box p {
+	width: 80%;
 }
 section .container-content .container-content-box .title-content {
 	text-align: center;
@@ -487,7 +478,6 @@ form .form-input.textarea {
 	width: 100%;
 	z-index: 1;
 	top: 0;
-	/*background-color: rgba(255, 255, 255, 0.1);*/
 	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.42620798319327735) 51%, rgba(255,255,255,0.6615021008403361) 100%);
 	display: flex;
 	align-items: center;
@@ -698,9 +688,7 @@ ul.menu-header > li:hover a {
 }
 
 @media (max-width: 991px) {
-	/*.hero-image-title {
-		width: 90%;
-	}*/
+
 	.image-box-image {
 		max-width: calc(100% - 20px);
 	}
