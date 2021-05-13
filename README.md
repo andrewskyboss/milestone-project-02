@@ -14,18 +14,9 @@ Andrej Cybovskij
 - Below is a picture of site that shows it in responsive states. 
 [link to check a website to be responsive](http://ami.responsivedesign.is)
 ![picture of site](assets/images/responsive-1.PNG)
-- The project idea is to create a personal portfolio website (for Andrej Cybovskij). 
-	This websites goal is to represent Autor for potential Employers and Recruiters in a best light and get hired. 
-    The main users of this website are a business people and their representatives. 
-    The websites include of the following features: 
-	- Educational overview and work experience. 
-	- As well it presents Author's skills and relevant competencies.
-	- Provides embedded portfolio examples and contact information for recruiters
+- Hey Travel is a website, where user can find a holiday destination for their needs. For their convenience, there are Map with proposed destinations markers. As well, user can choose a travel package from this website. To get inspiration about destinations, there are lot of visual materials placed in different manner, such as Hero sliders, Grid images and Gallery. As well, user has form to contact website owner to get all necessary information.
 
-- The main users of this website are a business people and their representatives. 
-- Website design is clean and clear for Business people. 
-- Clear structure makes it quick accessible and easy to use.
-- All those features makes it highly efficient to achieve main target to be hired.
+- Despite to the existing travel situation, people still wants to travel. They are looking for new destinations and possibilities to go out from home. That is mean that any Travel and destinations websites, this version as well, has very high commercial feature. It has modern design and lot of visual component. Design was build using last UX/UI technologies.
 
 - [Link to a deployed website](https://andrewskyboss.github.io/milestone-project-02)
 
