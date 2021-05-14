@@ -38,9 +38,9 @@ Andrej Cybovskij
 - The main users of this website are a business people and their representatives.
 
 Common types of users are:
-- New customer or unauthenticate user main goal is to get all information they need as quick as possible.
-- Existing customers knows website structure and could wondering for any updates and new information.
-- Admin goal is to get access to the back end information to manage it.
+- New customers. The users’ main goal is to get necessary travel information. They are ready for travel and can spend some time to choose a destination. They are ready to get some inspirations from the imaginary and customers’ reviews. 
+- Existing customers. They knows website structure. They are ready for travel. Some of them want to be inspired by the imaginary or video to get a new destination. Some of them knows their destination and wants to do a quick buy.
+- Admin. He’s goal is to get access to the back end information to manage it.
 - This website does not proposing any login system.
 
 #### Developer Goals
