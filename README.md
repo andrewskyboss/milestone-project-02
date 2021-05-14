@@ -124,7 +124,7 @@ By the [empower-yourself-with-color-psychology.com website](https://www.empower-
 - Combination of those colors should create emotional trust and future potential. Those feelings and website content should help the Author to achieve his goals to be hired.
 
 - Color palete was created using [Coolors resources](https://coolors.co)
-- ![color scheme](assets/images/colors.PNG)
+- ![color scheme](assets/images/color-sheme.PNG)
 
 #### Typography
 - Elegant Quicksand sans-serif typeface family font, were using in this project for the body text.
