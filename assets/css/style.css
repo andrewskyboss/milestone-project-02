@@ -649,6 +649,7 @@ ul.menu-header > li:hover a {
 	text-transform: capitalize;
 }
 .social-links-container ul {
+	display: flex;
 	margin: 0;
 	padding: 0;
 }
@@ -656,6 +657,13 @@ ul.menu-header > li:hover a {
 	margin-left: 20px;
 	margin-right: 20px!important;
 	margin-bottom: 20px;
+}
+.social-links-container ul li.css-verification a img{
+	transform: scale(1);
+	transition: all 0.8s ease;
+}
+.social-links-container ul li.css-verification a:hover img{
+	transform: scale(1.2);
 }
 .social-links-container ul li a {
 	color: var(--color-white);
