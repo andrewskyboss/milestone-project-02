@@ -89,16 +89,16 @@ This project was built based on UX concerns: website should be useful, usable an
 
 - **Scope plane** - represents features we want to include into design. 
   - This project includes following features: 
-    -- Header navigation.
-    -- Mobile navigation.
-    -- Intuitive design.
-    -- SVG logo on top of the page.
-    -- Hero Slider.
-    -- Image Gallery with modal pop up window
-    -- Grid images as a visual representatives.
-    -- Google Map with location markers.
-    -- Contact form.
-    -- Social media icons.
+     - Header navigation.
+      - Mobile navigation.
+      - Intuitive design.
+      - SVG logo on top of the page.
+      - Hero Slider.
+      - Image Gallery with modal pop up window
+      - Grid images as a visual representatives.
+      - Google Map with location markers.
+      - Contact form.
+      - Social media icons.
 
 
 - **Structure plane** - Usually users are visiting website to get just for some king of content. Information is logically structured into main parts. All parts placed to the navigation.
