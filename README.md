@@ -101,7 +101,7 @@ This project was built based on UX concerns: website should be useful, usable an
       - Social media icons.
 
 
-- **Structure plane** - Usually users are visiting website to get just for some king of content. Information is logically structured into main parts. All parts placed to the navigation.
+- **Structure plane** - Information in this project is structured and logically placed into main parts. All parts placed to the navigation. Exception is for Packages. They are not in the navigation and can be accessed through the destinations page. As well, main navigation elements are placed on the homepage into grid system and complimented by the images.
 
 - **Skeleton plane** - part for mock-ups:
   - Wireframes links are presented below:
