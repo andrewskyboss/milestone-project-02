@@ -112,16 +112,7 @@ This project was built based on the target audience needs. As was mentioned abov
 - **Surface plane** - it is a final part of design procedure. The project is built in Classical design style with infusions of modern elements. Abril Fatface font gives additional modern design inclusions. This font curves are not traditional for Travel websites design. It looks more from fashion magazine designs and brings more stylish look. Pale Shades of Blue, Red and green are very pleasant. Colors are associated with water, sun and summer grass. Images are very colourful and attract attention. Website gives a holydays feeling. Same as semi-transparent and grey backgrounds, sliding and fade in animation gives lightweight and elegance.
 
 #### Colors
-As I was mentioned above, the color palette were taken to represent colors of Nature. Pale Shades of Blue, Red and green are very pleasant and should associate with water, sun and summer grass.
-
-By the [empower-yourself-with-color-psychology.com website](https://www.empower-yourself-with-color-psychology.com/blue-in-business.html#:~:text=Blue%20is%20the%20most%20universally,indicates%20confidence%2C%20reliability%20and%20responsibility.) 
-"Blue is the most universally favored color of all and therefore the safest to use. It relates to trust, honesty and dependability, therefore helping to build customer loyalty. Blue indicates confidence, reliability and responsibility"
-- As a major color, the Oxford Blue (#0A0E29) is responsible to create a trust feeling from an employer to a potential employee. 
-- Space Cadet (#2D325A) is a same blue group color and gives a variety and lighter shade. 
-- Secondary color is Imperial Red (#F71735). As a shade of red, gives us feeling of energy, passion and action. It’s important to show a creativity and energy for a potential employer. 
-- Accent color is Gold Metallic (#DBB13B). As a shade of yellow should create a feeling of success, achievement and triumph. 
-- Pale Purple Pantone (#F1E4F3) color is a neutral and combines all colors together
-- Combination of those colors should create emotional trust and future potential. Those feelings and website content should help the Author to achieve his goals to be hired.
+As I was mentioned above, the color palette were taken to represent colors of Nature. Pale Shades of Blue, Red and green are very pleasant and should associate with water, sun and summer grass. Additionally three shades of grey were used to highlight the colors of Nature. Combination of those colors should create emotional trust and mood of future rest and travel.
 
 - Color palete was created using [Coolors resources](https://coolors.co)
 - ![color scheme](assets/images/color-sheme.PNG)
