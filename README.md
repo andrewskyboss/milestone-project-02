@@ -63,19 +63,24 @@ Main goals of website owner are:
 
 ### User Stories
 
-- As an Employer I want to have:
-  1. The ability to easily find potential employee past Experience information.
-  2. The ability to easily find potential employee Education information.
-  3. The ability to easily find potential employee Portfolio or work examples.
-  4. The ability to easily find potential employee Contact information.
-  5. The ability to easily find potential employee access to Social links.
-  6. The ability to easily download potential employee CV and Cover Letter.
+- As single Traveller, I want to have:
+  1. Ability to find easily all possible destinations to choose.
+  2. Ability to get some visual information about destination.
+  3. Ability to find easily all possible attractions there.
+  4. Ability to find easily all possible information about attractions.
+  5. Ability to find easily all proposed Travel packages and what is included there.
+  6. Ability to find easily price for every package.
+  7. Ability to find easily information about flights or other ways of transportation.
+  8. Ability to find easily information about visa and custom.
+  9. Ability to find easily information about any dangerous illness and necessary vaccination.
+  10. Ability to find easily contact information.
 
-- As a Freelancer's Customer I want to have:
-  1. The ability to easily find potential freelancer past Experience information.
-  2. The ability to easily find potential freelancer Portfolio or work examples.
-  3. The ability to easily find potential freelancer Contact information.
-  4. The ability to easily find potential freelancer access to Social links.
+- As a Group Traveller, additional to the single Traveller, I want to have:
+  1. Ability to find easily information for group attractions.
+
+- As a Family Traveller, additional to the single and group Travellers, I want to have:
+  1. Ability to find easily information about family attractions.
+  2. Ability to find easily information about requirements (if they are) for children.
 
 ### Design Choices
 
