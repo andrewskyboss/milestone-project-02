@@ -262,7 +262,7 @@ Features to be implemented in the future:
 
 
 ### Lighthouse performance
-![Lighthouse Performance](assets/images/lighthouse.PNG)
+![Lighthouse Performance](assets/images/lighthouse1.PNG)
 
 
 ## Code validity
