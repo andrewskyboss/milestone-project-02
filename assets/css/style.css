@@ -742,6 +742,9 @@ ul.menu-header > li:hover a {
 		width: 90%;
 		margin-left: 5%;
 	}
+	section .container-content .container-content-box p {
+		width: 98%;
+	}
 	section .gallery-container .gallery-row-single-image {
 		max-width: 90%;
 		flex: 0 0 90%;
