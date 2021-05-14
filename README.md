@@ -16,7 +16,7 @@ Andrej Cybovskij
 ![picture of site](assets/images/responsive-1.PNG)
 - Hey Travel is a website, where user can find a holiday destination for their needs. For their convenience, there are Map with proposed destinations markers. As well, user can choose a travel package from this website. To get inspiration about destinations, there are lot of visual materials placed in different manner, such as Hero sliders, Grid images and Gallery. As well, user has form to contact website owner to get all necessary information.
 
-- Despite to the existing travel situation, people still wants to travel. They are looking for new destinations and possibilities to go out from home. That is mean that any Travel and destinations websites, this version as well, has very high commercial feature. It has modern design and lot of visual component. Design was build using last UX/UI technologies.
+- Despite to the existing travel situation, people still wants to travel. They are looking for new destinations and possibilities to go out from home. That is mean that any Travel and destinations websites, this version as well, has very high commercial feature. It has modern design and lot of visual component. Design was build using last UI/UX technologies.
 
 - [Link to a deployed website](https://andrewskyboss.github.io/milestone-project-02)
 
@@ -25,7 +25,8 @@ Andrej Cybovskij
 ### Project Goals
 
 #### The goals of this project are:
-- Design, develop and implement a dynamic front-end web application using HTML, CSS and JavaScript.
+- Design, develop and implement a dynamic front-end web application using HTML, CSS and JavaScript
+- Meet the target audience users’ needs using UI/UX design principles
 - Implement front-end interactivity, using core JavaScript, JavaScript libraries and/or Application Programming Interfaces (APIs)
 - Test an interactive front-end web application through the development, implementation and deployment stages
 - Deploy an interactive front-end web application to a Cloud platform
