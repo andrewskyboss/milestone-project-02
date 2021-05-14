@@ -118,11 +118,10 @@ As I was mentioned above, the color palette were taken to represent colors of Na
 - ![color scheme](assets/images/color-sheme.PNG)
 
 #### Typography
-- Elegant Quicksand sans-serif typeface family font, were using in this project for the body text.
-- Abril Fatface font is universal and contemporary style font, displays strong presence on the page to attract attention was using for all titles in this project.
-
-- Body font is Quicksand 16px. This body font size is common for many project as easy to read and good for design as well.
-- All titles are in Abril Fatface font’s family. This font is based on classical Proportions and has variety of sizes. H1 as main title is in size of 40px. It is quite big size, but looks very elegant. H2 title is in size of 35px. H3 and H4 titles are in same size of 30px.
+- Elegant Quicksand sans-serif typeface family font, were using in this project for the body text. Body font size is 16px. This body font is easy to read and good for design.
+- All titles are in Abril Fatface font’s family.
+- According to Google Font, Abril Fatface is a contemporary revamp of classic font, inspired by the heavy titling fonts used in advertising posters in 19th century Britain and France. It has both neutrality and strong presence on the page to attract reader attention with measured tension by its curves, good color and high contrast. 
+-  H1 as main title is in size of 50px. It is quite big size, but looks very stylish and attract attention. H2 title is in size of 40px. H3 titles are in size of 30px.
 - All fonts are reduced in size for mobile devices to fit into the small screen of devices:
 - H1 = 40px, H2 = 35px, H3 = 27px.
 - body font is in same size for mobile devices.
