@@ -35,7 +35,7 @@ Andrej Cybovskij
 
 #### User Goals
 
-- The main users of this website are a business people and their representatives.
+- The target audience of this website is very wide. They are different age and status, families or single people.
 
 Common types of users are:
 - New customers. The users’ main goal is to get necessary travel information. They are ready for travel and can spend some time to choose a destination. They are ready to get some inspirations from the imaginary and customers’ reviews. 
