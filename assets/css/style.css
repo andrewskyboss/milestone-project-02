@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+
 :root {
   --color-brand-1: #296EB4;
   --color-brand-2: #04A777;
@@ -11,12 +12,24 @@
   --color-brand-6: #1B1725;
   --color-white: #ffffff;
 }
+
 body {
 	font-family: 'Quicksand', sans-serif;
 	color: var(--color-brand-6);
 	font-size: 16px;
 
 }
+/*---------------- Container ----------------*/
+@media (min-width: 2250px) {
+	.container-fluid {
+		padding: 0;
+		max-width: 1920px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
 h1 {
 	font-family: 'Abril Fatface', cursive;
 	color: var(--color-brand-1);
@@ -88,6 +101,7 @@ footer .newsletter-container .newsletter-form .form-input.newsletters {
 footer .newsletter-container .newsletter-form button {
 	height: 40px;
 }
+
 /*---------------- Hero Image module ----------------*/
 .hero-image {
 	height: 90vh;
@@ -188,6 +202,7 @@ section .gallery-container .gallery-row-single-image img {
 }
 section .gallery-container .gallery-row-single-image:hover img {
 	transform: scale(1.2);
+	/*transition: transform 0.8s ease;*/
 }
 section .gallery-container .gallery-row-single-image:hover .gallery-item-title {
 	opacity: 1;
@@ -199,13 +214,11 @@ section .modal {
 	opacity: 0;
 	transform: translateY(-100%) scale(1);
 	transition: all 0.8s ease;
-	pointer-events: none;
 }
 section .modal.show {
 	display: block;
 	opacity: 1;
 	background-color: rgba(114,114, 114, 0.95);
-	pointer-events: auto;
 	transform: translateY(0%) scale(1);
 	transition: all 0.8s ease;
 }
@@ -322,6 +335,7 @@ section .modal .modal-img-box .modal-box-image {
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 section .modal .modal-img-box .modal-box-image.active {
+	/*opacity: 1;*/
 	animation: fade-in-from-bottom-animation 0.8s cubic-bezier(0.25, 0.450, 0.6, 0.79) both;
 }
 .section-title {
@@ -344,8 +358,15 @@ section .modal .modal-img-box .modal-box-image.active {
 	margin-right: 0;
 	display: flex;
 }
-.image-boxes-2-col .image-boxes-2-row.hidden {
-	display: none;
+.image-boxes-2-col .image-boxes-2-row .image-box-image {
+	overflow: hidden;
+}
+.image-boxes-2-col .image-boxes-2-row .image-box-image img {
+	transform: scale(1);
+	transition: transform 0.8s ease;
+}
+.image-boxes-2-col .image-boxes-2-row .image-box-image:hover img {
+	transform: scale(1.1);
 }
 
 .image-box-image {
@@ -618,6 +639,14 @@ ul.menu-header > li:hover a {
 .social-links-container {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.social-links-container .social-links-title h3 {
+	color: var(--color-white);
+	margin: 5px 0 35px 0;
+	text-transform: capitalize;
 }
 .social-links-container ul {
 	margin: 0;
