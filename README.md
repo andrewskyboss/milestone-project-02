@@ -101,9 +101,9 @@ This project was built based on UX concerns: website should be useful, usable an
 
 - **Skeleton plane** - part for mock-ups:
   - Wireframes links are presented below:
-  - [Link to a Wireframes for a Desctop view](assets/documents/desctop.pdf)
-  - [Link to a Wireframes for Tablet view ](assets/documents/tab.pdf)
-  - [Link to a Wireframes for Mobile view ](assets/documents/mobile.pdf)
+  -- [Link to a Wireframes for a Desctop view](assets/documents/desctop.pdf)
+  -- [Link to a Wireframes for Tablet view ](assets/documents/tab.pdf)
+  -- [Link to a Wireframes for Mobile view ](assets/documents/mobile.pdf)
 
 - **Surface plane** - final part of design procedure. The project build in a Classical style. Cinzel and Rylaway fonts gives easy shapes. Shades of Blue, Red and gold are acceptable by the business people as a pleasant and trust. Images are very clear and simple. First look to the website gives a feeling about website owner. Elegant fade in animation gives lightweight and elegance feeling.
 
