@@ -136,9 +136,9 @@ As I was mentioned above, the color palette were taken to represent colors of Na
  
 
 #### Images
-- On website were used variety of images with open laptop screen. Open laptop looks like an open to opportunity. City views like a coding structure, organised and working properly.
-- As well were used Font Awesome libraries icons to display all major social media. Icons takes small amount off space, but looks very presentable and modern.
-- As well were used Programming languages svg icons to visualize them.
+- For user inspiration and Travel destination illustrations, there are used lot of colourful images. Currently, for demonstration purpose were chosen 5 destinations: Ireland, Germany, France, Italy and Spain. Accordingly, images were chosen to represent chosen destinations. 
+- Font Awesome icons were used to visually represent all major social media resources. 
+- As well were used svg Arrows, Closing icons to demonstrate on website. I created them.
 - [Images were taken from the Megapixl resources](https://www.megapixl.com)
 
 
