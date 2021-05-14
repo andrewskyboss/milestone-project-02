@@ -1,15 +1,18 @@
 
 
 /*----------- Gallery ----------*/
+// Variable declaration
 const gallery = document.querySelectorAll(".gallery-container .gallery-row-single-image"),
 	modalBox = document.querySelector(".modal"),
 	modalImage = modalBox.querySelector("img"),
 	closeModal = document.querySelector(".close-icon"),
 	currentImageTitle = modalBox.querySelector("h3.image-title-h3"),
 	currentImage = modalBox.querySelector(".current-image"),
-	totalImages = modalBox.querySelector(".total-images");
+    totalImages = modalBox.querySelector(".total-images");
 
+// Loading gallery on loading 
 window.onload = () => {
+
 	for (let i = 0; i < gallery.length; i++) {
 		totalImages.textContent = gallery.length;
 		console.log(" gallery length " + gallery.length);
@@ -19,15 +22,18 @@ window.onload = () => {
 		gallery[i].onclick = () =>{
 			
 			console.log(i);
-			tempImgIndex = imgIndex;
+            tempImgIndex = imgIndex;
 
+            // Gets image addres
 			function getImgAddress(){
 				currentImage.textContent = imgIndex + 1;
 				let selectedImgAddress = gallery[imgIndex].querySelector("img").src;
 				let selectedImgTitle = gallery[imgIndex].querySelector("h3.gallery-item-title").textContent;
 				console.log(selectedImgTitle);
 				currentImageTitle.innerHTML = selectedImgTitle;
-				modalImage.src = selectedImgAddress;
+                modalImage.src = selectedImgAddress;
+                
+                // Image animation in modal window
 				modalImage.animate([
 					{ transform: 'translateY(10px)', opacity: '0.5' },
 					{ transform: 'translateY(0px)' , opacity: '1'}
@@ -39,7 +45,7 @@ window.onload = () => {
 				console.log(selectedImgAddress);
 			}
 
-			/* ------ Buttons ------- */
+			// Buttons
 			const prevButton = document.querySelector(".prev");
 			const nextButton = document.querySelector(".next");
 
@@ -49,7 +55,7 @@ window.onload = () => {
 			if(imgIndex >= gallery.length - 1){
 				nextButton.style.display = "none";
 			}
-			/* ------ Preview Button ------- */
+			// Preview Button
 			prevButton.onclick = ()=>{
 				imgIndex --;
 				console.log(imgIndex);
@@ -63,7 +69,7 @@ window.onload = () => {
 					nextButton.style.display = "flex";
 				}	
 			}
-			/* ------ Next Button ------- */
+			// Next Button
 			nextButton.onclick = ()=>{
 				imgIndex ++;
 				console.log(imgIndex);
@@ -77,12 +83,13 @@ window.onload = () => {
 					prevButton.style.display = "flex";
 				}	
 			}
-
+            // Calling for the function to get image address
 			getImgAddress();
 
 			modalBox.classList.add("show");
 			document.querySelector("body").style.overflow = "hidden";
 
+            //close modal window
 			closeModal.onclick = () =>{
 				imgIndex = tempImgIndex;
 				modalBox.classList.remove("show");

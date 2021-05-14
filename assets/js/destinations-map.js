@@ -10,7 +10,7 @@
     https://en.wikipedia.org/wiki/Spain
     https://www.expedia.ie/Europe.d6022967.Holidays-City-Breaks?pwaLob=wizard-package-pwa
 */
-
+// Country row content source
 const countryData = {
 	"ireland": [{
 		"Title": "Ireland Packages",
@@ -52,7 +52,7 @@ const countryData = {
 		"Alt": "Spain image",
 	}]
 };
-
+// Map initialisation and population
 function initMap() {
 
 	var options = {
@@ -62,8 +62,9 @@ function initMap() {
 		zoom: 5
 	}
 
-	var map = new google.maps.Map(document.getElementById('map'), options);
+    var map = new google.maps.Map(document.getElementById('map'), options);
 
+    // Locators content
 	const destinationsPrimary = [
 		[{ lat: 53.031401, lng: -8.056747 },
 			'Ireland',
@@ -95,12 +96,14 @@ function initMap() {
 			"<p>Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters. Segovia has a medieval castle (the Alcázar) and an intact Roman aqueduct. Catalonia’s capital, Barcelona, is defined by Antoni Gaudí’s whimsical modernist landmarks like the Sagrada Família church.</p>", 
 			'<a onclick="countryInfo(\'spain\')" class="btn btn-secondary" href="#country-row">Our Packages</a><br><br>', 
 			'<a class="btn btn-secondary" target="_blank" href="https://www.spain.info/en/">Tourist Information</a>'],
-	];
+    ];
 
+    // Info window initialization 
 	const infoWindow = new google.maps.InfoWindow({
 		maxWidth: 300,
 	});
 
+    // Populates markers info windows content
 	destinationsPrimary.forEach(([position, title, population, content, link1, link2], i) => {
 
 		const marker = new google.maps.Marker({
@@ -127,7 +130,7 @@ function initMap() {
 			infoWindow.open(marker.getMap(), marker);
 		});
 
-
+        // Markers animation
 		function toggleBounce() {
 			if (marker.getAnimation() !== null) {
 				marker.setAnimation(null);
@@ -139,12 +142,13 @@ function initMap() {
 
 }
 
+// Populates country row content to the div element
 function countryInfo(countryName) {
 
 	var checkCountry = document.getElementById("country-row").hasChildNodes();
 	var checkPackage = document.getElementById("package-row").hasChildNodes();
 
-
+    // Checks country row and package rows to be empty
 	if(checkCountry === true && checkPackage === false) {
 		var temp = document.getElementById("country-row");
 		temp.innerHTML = '';
@@ -158,6 +162,7 @@ function countryInfo(countryName) {
 	let classId = countryName;
 	console.log("class name is " + classId);
 
+    //populates country information to the div element
 	for (var key in countryData) {
 		console.log("key name is " + key);
 		if(key === classId) {

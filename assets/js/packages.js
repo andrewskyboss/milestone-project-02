@@ -1,4 +1,4 @@
-
+// Source of packages
 const sourceData = {
 	"ireland": [{
 		"Number": "even",
@@ -99,10 +99,12 @@ const sourceData = {
 	}]
 };
 
+// Function to populate packages to the packages div
 function openPackages(country) {
 
 	var checkPackage = document.getElementById("package-row").hasChildNodes();
 
+    //checks package row to be empty
 	if(checkPackage === true) {
 		var tempPack = document.getElementById("package-row");
 		tempPack.innerHTML = '';
@@ -110,6 +112,7 @@ function openPackages(country) {
 	
 	let classId = country;
 
+    // Takes info from packages database and populates to the packages row
 	for (var key in sourceData) {
 
 		if(key === classId) {
