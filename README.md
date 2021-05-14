@@ -218,7 +218,7 @@ Features to be implemented in the future:
 - Add Image on the Country info window
 - Add search functionality
 - Add Flight booking functionality
-- Add atraction search functionality
+- Add attraction search functionality
 - More High quality images
 
 ## Technologies Used
