@@ -88,17 +88,17 @@ This project was built based on UX concerns: website should be useful, usable an
 - **Strategy Plane**  – represents business goals. The main website owner goals were presented above. Just a reminder, that main user of this website will be a business people. Whole design should be kept simple in classical style with some bright elements (in this project Imperial Red color plays as bright element). Design should be plain and modern. Information should be well structured and easy to access. Main parts of the information are placed into top navigation. No more than 3 clicks to get information about website owner. Download button is placed in a footer navigation to get CV printable copy.
 
 - **Scope plane** - represents features we want to include into design. 
-- This project includes following features: 
-  - Header navigation.
-  - Mobile navigation.
-  - Intuitive design.
-  - SVG logo on top of the page.
-  - Hero Slider.
-  - Image Gallery with modal pop up window
-  - Grid images as a visual representatives.
-  - Google Map with location markers.
-  - Contact form.
-  - Social media icons.
+  - This project includes following features: 
+    -- Header navigation.
+    -- Mobile navigation.
+    -- Intuitive design.
+    -- SVG logo on top of the page.
+    -- Hero Slider.
+    -- Image Gallery with modal pop up window
+    -- Grid images as a visual representatives.
+    -- Google Map with location markers.
+    -- Contact form.
+    -- Social media icons.
 
 
 - **Structure plane** - Usually users are visiting website to get just for some king of content. Information is logically structured into main parts. All parts placed to the navigation.
