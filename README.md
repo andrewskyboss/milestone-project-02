@@ -112,7 +112,7 @@ This project was built based on the target audience needs. As was mentioned abov
 - **Surface plane** - it is a final part of design procedure. The project is built in Classical design style with infusions of modern elements. Abril Fatface font gives additional modern design inclusions. This font curves are not traditional for Travel websites design. It looks more from fashion magazine designs and brings more stylish look. Pale Shades of Blue, Red and green are very pleasant. Colors are associated with water, sun and summer grass. Images are very colourful and attract attention. Website gives a holydays feeling. Same as semi-transparent and grey backgrounds, sliding and fade in animation gives lightweight and elegance.
 
 #### Colors
-The main inspiration of the colors started from the Oxford Blue color.
+As I was mentioned above, the color palette were taken to represent colors of Nature. Pale Shades of Blue, Red and green are very pleasant and should associate with water, sun and summer grass.
 
 By the [empower-yourself-with-color-psychology.com website](https://www.empower-yourself-with-color-psychology.com/blue-in-business.html#:~:text=Blue%20is%20the%20most%20universally,indicates%20confidence%2C%20reliability%20and%20responsibility.) 
 "Blue is the most universally favored color of all and therefore the safest to use. It relates to trust, honesty and dependability, therefore helping to build customer loyalty. Blue indicates confidence, reliability and responsibility"
