@@ -109,7 +109,7 @@ This project was built based on UX concerns: website should be useful, usable an
    - [Link to a Wireframes for Tablet view ](assets/documents/tab.pdf)
    - [Link to a Wireframes for Mobile view ](assets/documents/mobile.pdf)
 
-- **Surface plane** - final part of design procedure. The project build in a Classical style. Cinzel and Rylaway fonts gives easy shapes. Shades of Blue, Red and gold are acceptable by the business people as a pleasant and trust. Images are very clear and simple. First look to the website gives a feeling about website owner. Elegant fade in animation gives lightweight and elegance feeling.
+- **Surface plane** - it is a final part of design procedure. The project is built in Classical design style with infusions of modern elements. Abril Fatface font gives additional modern design inclusions. This font curves are not traditional for Travel websites design. It looks more from fashion magazine designs and brings more stylish look. Pale Shades of Blue, Red and green are very pleasant. Colors are associated with water, sun and summer grass. Images are very colourful and attract attention. Website gives a holydays feeling. Same as semi-transparent and grey backgrounds, sliding and fade in animation gives lightweight and elegance.
 
 #### Colors
 The main inspiration of the colors started from the Oxford Blue color.
