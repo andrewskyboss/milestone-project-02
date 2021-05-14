@@ -149,16 +149,19 @@ By the [empower-yourself-with-color-psychology.com website](https://www.empower-
 
 
 #### Design Elements
-List of elements used on website: 
+List of all elements used on website: 
 - top menu (desktop navigation)
-- mobile (side navigation)
+- sidebar menu (mobile navigation)
 - footer
 - containers/section
 - buttons
 - text input
 - textarea inputs
+- modals/layers
 - images (.png, .jpg, .svg)
 - icons
+- map
+- contact form
 
 
 #### Animations and Transitions
