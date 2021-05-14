@@ -84,7 +84,7 @@ Main goals of website owner are:
 
 ### Design Choices
 
-This project was built based on UX concerns: website should be useful, usable and valuable for the customer and owner. As well to get a positive user experience, were used process of five planes of user experience:
+This project was built based on the target audience needs. As was mentioned above, the target audience is very wide. Very difficult to create design to be liked by the wide range of people.  We know that Nature is pleasant for all people. That mean, some parts of nature should be placed in this project. Colors were taken as representative of the nature as well as nice images. Design is clean and simple. All attention is on images. However, website should stay useful, usable and valuable for both customer and owner. To implement valuable design, were used process of five planes of good user experience:
 - **Strategy Plane**  – represents business goals. The main website owner goals were presented above. Just a reminder, that main user of this website will be a business people. Whole design should be kept simple in classical style with some bright elements (in this project Imperial Red color plays as bright element). Design should be plain and modern. Information should be well structured and easy to access. Main parts of the information are placed into top navigation. No more than 3 clicks to get information about website owner. Download button is placed in a footer navigation to get CV printable copy.
 
 - **Scope plane** - represents features we want to include into design. 
