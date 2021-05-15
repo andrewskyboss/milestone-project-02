@@ -14,6 +14,9 @@ Andrej Cybovskij
 
 ## CSS
  - Ran CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+   - Everything is coded properly. Few Warning message were received:
+   - Warning, for imported fonts, their style sheets are not checked in direct input and file upload modes. This warning is ignored.
+   -  Warning, for color variables as an unknown vendor extension. This warning is ignored
    - No errors found.
    - Relevant logos are placed on homepage footer
 
