@@ -9,6 +9,46 @@
 # Author
 Andrej Cybovskij
 
+- [milestone-project-02](#milestone-project-02)
+- [Interactive Front-End Development / Hey Travel](#interactive-front-end-development---hey-travel)
+- [Author](#author)
+  * [Project Overview](#project-overview)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+      - [The goals of this project are:](#the-goals-of-this-project-are-)
+      - [User Goals](#user-goals)
+      - [Developer Goals](#developer-goals)
+      - [Website Owner Goals](#website-owner-goals)
+    + [User Stories](#user-stories)
+    + [Design Choices](#design-choices)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Design Elements](#design-elements)
+      - [Animations and Transitions](#animations-and-transitions)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+      - [Implemented Features](#implemented-features)
+      - [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
+    + [Frameworks and Extensions](#frameworks-and-extensions)
+    + [Fonts](#fonts)
+    + [Programing Languages](#programing-languages)
+  * [Tools and Resources](#tools-and-resources)
+  * [[Testing](assets/documents/Testing.md)](#-testing--assets-documents-testingmd-)
+    + [Lighthouse performance](#lighthouse-performance)
+  * [Code validity](#code-validity)
+  * [Version Control](#version-control)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Code Snippets and Tutorials](#code-snippets-and-tutorials)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Project Overview
 
 - Below is a picture of site that shows it in responsive states. 
