@@ -46,7 +46,7 @@ Andrej Cybovskij
     + [Code Snippets and Tutorials](#code-snippets-and-tutorials)
     + [Acknowledgments](#acknowledgments)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/' target="_blank">Table of contents generated with markdown-toc</a></i></small>
 
 
 ## Project Overview
