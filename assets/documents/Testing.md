@@ -22,8 +22,14 @@ Andrej Cybovskij
 
 ## JavaScript
 - Ran JavaScript code through [JavaScript JSHINT Service](https://jshint.com/) for code warning & error check.
-  - The following Warning message were received:
-    - Missing semicolon
+   - The following (general) Warning messages were received:
+   - Missing semicolon
+   - Undefined variables such as google, toggleBounce, initMap.
+   - The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype.
+
+ - All semicolon were added. All variables were fixed or ignored, as code is working properly
+For loop was not wrapped into if statement, because it was not necessary by functionality.
+
 
 ## GENERAL (Site Testing on live page)
 
