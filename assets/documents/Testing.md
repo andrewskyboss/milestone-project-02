@@ -5,7 +5,7 @@ Andrej Cybovskij
 
 ## HTML
 
-- Ran HTML code through [W3C Markup Validation Service](https://validator.w3.org/)
+- Ran HTML code through [W3C Markup Validation Service](https://validator.w3.org/) for code warning & error check.
  - Everything is coded properly. Few Warning message were received:
  - **Warning**, there was an unnecessary type attribute for JavaScript resources (the attribute was removed)
  - **Warning**, there was an empty headings for h2 id="confirmation-title" and h3 id="confirmation-title-email". As they are used to display confirmation message on form submit, they are left empty.
@@ -13,7 +13,7 @@ Andrej Cybovskij
 
 
 ## CSS
- - Ran CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+ - Ran CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for code warning & error check.
    - Everything is coded properly. Few Warning message were received:
    - Warning, for imported fonts, their style sheets are not checked in direct input and file upload modes. This warning is ignored.
    -  Warning, for color variables as an unknown vendor extension. This warning is ignored
@@ -21,7 +21,7 @@ Andrej Cybovskij
    - Relevant logos are placed on homepage footer
 
 ## JavaScript
- - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
+- Ran JavaScript code through [JavaScript JSHINT Service](https://jshint.com/) for code warning & error check.
 
 ## GENERAL (Site Testing on live page)
 
