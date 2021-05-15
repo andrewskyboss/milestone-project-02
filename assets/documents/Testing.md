@@ -5,13 +5,12 @@ Andrej Cybovskij
 
 ## HTML
 
- - Ran HTML code through [W3C Markup Validation Service](https://validator.w3.org/)
- - Everything is coded properly, just has a warning about empty headings for JavaScript content populating elements
+- Ran HTML code through [W3C Markup Validation Service](https://validator.w3.org/)
+ - Everything is coded properly. Few Warning message were received:
+ - **Warning**, there was an unnecessary type attribute for JavaScript resources (the attribute was removed)
+ - **Warning**, there was an empty headings for <h2 id="confirmation-title" class="confirm-title"></h2> and <h3 id="confirmation-title-email" class="confirm-title-email"></h3>. As they are used to display confirmation message on form submit, they are left empty.
+ - **Error**, there was empty value for attribute src on element img. As it is used as a placeholder for the Gallery light box image, everything is left as it is.
 
- - Received error messages for p-tags inside iframes not being permitted. Removed the paragraph and text as iframes are supported in all browsers. Added Title to each iframe with description for screen-reader accessibility.
- - Warning for Intro section lacking heading. As this is an image gallery, no heading is required.
- - Warning for "empty heading" for the About section. The H3 tag with class of "countryHeading" pulls in the relevant heading from the REST country API so this can be ignored.
- - Two warnings for "The type attribute is unnecessary for JavaScript resources". Deleted both instances after researching correct measures.
 
 ## CSS
  - Ran CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
