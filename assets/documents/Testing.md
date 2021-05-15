@@ -33,17 +33,19 @@ For loop was not wrapped into if statement, because it was not necessary by func
 
 ## GENERAL (Site Testing on live page)
 
- - Navigation
-   - Clicked Navigation bar Logo/Text and confirmed it returns to Home/Intro.
-   - Clicked About on the navbar and scrolls to correct section.
-   - Clicked Game Reserves on the navbar and scrolls to correct section.
-   - Clicked Contact on the navbar and scrolls to correct section.
- - About Section
-   - Clicked URL href from "Info supplied by REST Countries API" and site opened on the same tab in the browser. Added target="_blank" (which was missing). Retested and opens in a new tab in the browser as desired.
-   - Clicked on each link for "[Excerpt from Official Park Website.]" and all are opening in a new tab in the browser as expected.
- - Contact section
-   - Clicked Submit button without any form entries. Expected warning popup retuned of "Please fill out this field". Further, tested all required form fields for same.
-   - Checked that Radio buttons give option for either/or selection, and not both.
+- Navigation
+   - Clicked on header Logo icon, it goes to Home page.
+   - Clicked on Destinations navigation element, it goes to the relevant page.
+   - Clicked on Gallery navigation element, it goes to the relevant page.
+   - Clicked on About Us navigation element, it goes to the relevant page.
+   - Clicked on Contact Us navigation element, it goes to the relevant page.
+- Homepage Page
+   - Clicked on View More Button in Destinations Grid element, it goes to the relevant page.
+   - Clicked on View More Button in Gallery Grid element, it goes to the relevant page.
+   - Clicked on View More Button in About Us Grid element, it goes to the relevant page.
+   - Clicked on View More Button in Contact Us Grid element, it goes to the relevant page.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+
 
 ### Cross Browser and Cross Device Testing
 
