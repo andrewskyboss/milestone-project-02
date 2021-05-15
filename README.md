@@ -139,7 +139,7 @@ As I was mentioned above, the color palette were taken to represent colors of Na
 - For user inspiration and Travel destination illustrations, there are used lot of colourful images. Currently, for demonstration purpose were chosen 5 destinations: Ireland, Germany, France, Italy and Spain. Accordingly, images were chosen to represent chosen destinations. 
 - Font Awesome icons were used to visually represent all major social media resources. 
 - As well were used svg Arrows, Closing icons to demonstrate on website. I created them.
-- [Images were taken from the Megapixl resources](https://www.megapixl.com)
+- [Images and logo were taken from the Megapixl resources](https://www.megapixl.com)
 
 
 #### Design Elements
