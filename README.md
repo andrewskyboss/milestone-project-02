@@ -160,13 +160,13 @@ List of all elements used on website:
 
 #### Animations and Transitions
 
-- Project has range of animations. It draws attention to the elements and adding value to the website style and design.
+Project has range of animations. It draws attention to the elements and adding value to the website style and design.
 - Animation is added to the following elements:
- - Zoom in animation is added to many grid images, images in the Gallery and all social links icons. This animation is not annoying but attract attention to the elements.
- - Fade in from the bottom animation is added to the h1, h2 titles. This animation is not annoying too and can be watchable for a long time. This animation is added to the images inside the Gallery Light box too.
- - Sliding from/to the top animation is added to the image Gallery light box.
- - Rotation animation is added to the closing button on Gallery Light box, 
- - Hover state is used for all icons and buttons. On hover, they are changing background and text colors. Hover effect is added to top navigation elements too.
+  - **Zoom in** animation is added to many grid images, images in the Gallery and all social links icons. This animation is not annoying but attract attention to the elements.
+  - **Fade in from the bottom** animation is added to the h1, h2 titles. This animation is not annoying too and can be watchable for a long time. This animation is added to the images inside the Gallery Light box too.
+  - **Sliding from/to the top** animation is added to the image Gallery light box.
+  - **Rotation** animation is added to the closing button on Gallery Light box, 
+  - **Hover** state is used for all icons and buttons. On hover, they are changing background and text colors. Hover effect is added to top navigation elements too. 
 
 ### Wireframes
 
