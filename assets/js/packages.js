@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // Source of packages
 const sourceData = {
 	"ireland": [{

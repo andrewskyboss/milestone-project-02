@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*----------- Contact Form ----------*/
 
 window.onload = function() {

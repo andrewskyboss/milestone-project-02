@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 // Carousel Bootstrap
 $('.carousel').carousel({
   interval: 2000

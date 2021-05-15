@@ -1,5 +1,4 @@
-
-
+/*jshint esversion: 6 */
 /*----------- Gallery ----------*/
 // Variable declaration
 const gallery = document.querySelectorAll(".gallery-container .gallery-row-single-image"),
