@@ -1,7 +1,13 @@
 # Testing
 
-# Author
-Andrej Cybovskij
+- [Testing](#testing)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [JavaScript](#javascript)
+  * [GENERAL (Site Testing on live page)](#general--site-testing-on-live-page-)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  * [RESPONSIVENESS](#responsiveness)
+    + [Testing stories from UX perspectives:](#testing-stories-from-ux-perspectives-)
 
 ## HTML
 
