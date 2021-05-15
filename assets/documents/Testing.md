@@ -8,7 +8,7 @@ Andrej Cybovskij
 - Ran HTML code through [W3C Markup Validation Service](https://validator.w3.org/)
  - Everything is coded properly. Few Warning message were received:
  - **Warning**, there was an unnecessary type attribute for JavaScript resources (the attribute was removed)
- - **Warning**, there was an empty headings for <h2 id="confirmation-title" class="confirm-title"></h2> and <h3 id="confirmation-title-email" class="confirm-title-email"></h3>. As they are used to display confirmation message on form submit, they are left empty.
+ - **Warning**, there was an empty headings for h2 id="confirmation-title" and h3 id="confirmation-title-email". As they are used to display confirmation message on form submit, they are left empty.
  - **Error**, there was empty value for attribute src on element img. As it is used as a placeholder for the Gallery light box image, everything is left as it is.
 
 
