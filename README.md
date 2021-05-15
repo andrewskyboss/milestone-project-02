@@ -220,6 +220,7 @@ Features to be implemented in the future:
 - Markdown table of contents
 - Bootstrap - by linking via Bootstrap CDN to HTML Doc
 - jQuery - JavaScript library
+- JSON - storing and transporting data
 
 ### Frameworks and Extensions
 - [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
@@ -231,10 +232,12 @@ Features to be implemented in the future:
 
 
 ### Programing Languages
-- [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
-- [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance.
 - [HTML](https://www.w3schools.com/html/default.asp) The project uses **HTML** to define DOM elements.
-- [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown
+- [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance.
+- [JavaScript](https://www.javascript.com) The project uses **JavaScript** to manipulate with content. 
+- [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
+- [JSON](https://www.json.org/json-en.html) The project uses **JSON** to store and transmit data objects.
+- [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown.
 
 ## Tools and Resources
 - [Wirefames by Balsamiq](https://balsamiq.com/wireframes/)
@@ -247,7 +250,7 @@ Features to be implemented in the future:
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 
-## Testing
+## [Testing](assets/documents/Testing.md)
 
   - Testing documentation can be found on a separate [document](assets/documents/Testing.md)
 
@@ -309,8 +312,8 @@ To clone this project into Gitpod you will need to do following steps:
 
 - The images used in this project were obtained from the [Megapixl resources](https://www.megapixl.com)
 - Icons [Font Awesome](https://fontawesome.com/v4.7.0/)
-- SVG icons - self-made on Adobe Illustrator
-- Image optimisation - self-made on Adobe Photoshop
+- SVG icons - self-made on [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
+- Image optimisation - self-made on [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 
 ### Code Snippets and Tutorials
 
