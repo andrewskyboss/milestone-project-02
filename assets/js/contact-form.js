@@ -18,4 +18,4 @@ window.onload = function() {
 			document.getElementById('confirmation-title').textContent = 'Sorry, something went wrong. Try Later.';
 		});
 	});
-}
+};

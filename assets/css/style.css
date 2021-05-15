@@ -534,7 +534,7 @@ ul.menu-header {
 	display: inline-block;
 	list-style: none;
 	margin-bottom: 0;
-	padding-inline-start: 0px;
+	/* padding-inline-start: 0px; */
 }
 ul.menu-header > li {
 	display: inline-block;

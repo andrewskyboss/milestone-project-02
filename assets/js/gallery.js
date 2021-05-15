@@ -68,7 +68,7 @@ window.onload = () => {
 					getImgAddress();
 					nextButton.style.display = "flex";
 				}	
-			}
+			};
 			// Next Button
 			nextButton.onclick = ()=>{
 				imgIndex ++;
@@ -82,7 +82,7 @@ window.onload = () => {
 					getImgAddress();
 					prevButton.style.display = "flex";
 				}	
-			}
+			};
             // Calling for the function to get image address
 			getImgAddress();
 
