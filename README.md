@@ -304,7 +304,6 @@ Features to be implemented in the future:
   - [W3C Markup Validation Service](https://validator.w3.org/) was using on this project.
   - [JavaScript JSHINT Service](https://jshint.com/) was using for code warning & error check
   - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) was using to validate all tags
-  - <a href='https://jigsaw.w3.org/css-validator' target="_blank">W3C CSS Validation Service</a>
 
 ## Version Control
  - Used Git for version control.
