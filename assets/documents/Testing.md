@@ -33,18 +33,49 @@ For loop was not wrapped into if statement, because it was not necessary by func
 
 ## GENERAL (Site Testing on live page)
 
-- Navigation
+**Homepage Page**
    - Clicked on header Logo icon, it goes to Home page.
    - Clicked on Destinations navigation element, it goes to the relevant page.
    - Clicked on Gallery navigation element, it goes to the relevant page.
    - Clicked on About Us navigation element, it goes to the relevant page.
    - Clicked on Contact Us navigation element, it goes to the relevant page.
-- Homepage Page
-   - Clicked on View More Button in Destinations Grid element, it goes to the relevant page.
-   - Clicked on View More Button in Gallery Grid element, it goes to the relevant page.
-   - Clicked on View More Button in About Us Grid element, it goes to the relevant page.
-   - Clicked on View More Button in Contact Us Grid element, it goes to the relevant page.
-   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+   - Clicked on View More Button in Each Grid element, all of them goes to the relevant page.
+   - Added email to Newsletter sign up field and Clicked on Sign Up Button, the page is connected to dummy Code Institute mail service.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+
+**Destinations Page**
+   - Clicked on header Logo icon, it goes to Home page.
+   - Clicked on every header navigation elements, all of them goes to the relevant page.
+   - Clicked on every Map Locator, all of them opens info window with relevant information and all links are connected to the relevant pages.
+   - Clicked on View Packages Button in Country Grid element, all of them opens relevant packages grid elements.
+   - Clicked on Contact Us Button in Each Packages Grid element, all of them goes to the relevant page.
+   - Added email to Newsletter sign up field and Clicked on Sign Up Button, the page is connected to dummy Code Institute mail service.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+
+**Gallery Page**
+   - Clicked on header Logo icon, it goes to Home page.
+   - Clicked on every header navigation elements, all of them goes to the relevant page.
+   - Clicked on every Image in the Gallery, all of them opens light box window.
+   - Clicked on every arrows in the Gallery Light box, all images are presented, as it should be.
+   - Clicked on close icon in the Gallery Light box, Light box is flying out, as it should be.
+   - Added email to Newsletter sign up field and Clicked on Sign Up Button, the page is connected to dummy Code Institute mail service.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+
+**About Us Page**
+   - Clicked on header Logo icon, it goes to Home page.
+   - Clicked on every header navigation elements, all of them goes to the relevant page.
+   - Clicked on View More Button in Grid element, it goes to the relevant page.
+   - Added email to Newsletter sign up field and Clicked on Sign Up Button, the page is connected to dummy Code Institute mail service.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
+
+**Contact Us Page**
+   - Clicked on header Logo icon, it goes to Home page.
+   - Clicked on every header navigation elements, all of them goes to the relevant page.
+   - Checked all contact form elements, all are working properly.
+   - Clicked on Clear Button form fields are cleared, as it should be.
+   - Clicked on Send a Message Button, on submit form fields are cleared, as it should be and underneath the form title displays confirmation sign.
+   - Added email to Newsletter sign up field and Clicked on Sign Up Button, the page is connected to dummy Code Institute mail service.
+   - Clicked on Social links icons in the footer, each icon goes to the relevant page.   - Clicked on Social links icons in the footer, each icon goes to the relevant page.
 
 
 ### Cross Browser and Cross Device Testing
@@ -67,20 +98,6 @@ Testing was done for the following devices:
 |  MP Samsung S10+ | Samsung  |  android | 1440 x 3040  |
 |  ipad | Chrome  |  iOs | 1024 x 768  |
 |  ipad | Safari  |  iOs | 1024 x 768  |
-
-### Following bugs were detected:
-
-- Portfolio page, when click the logo (name) the page is redirected to a non-existing page instead of staying on the page it’s on. (404 page) - Fixed.
-	- Portfolio page, were found four JavaScript console errors. – There are four iframes to Adobe portfolios. Errors are from the Adobe server. - Not fixed.
-	- On super wide screens content gets a bit too spread out. - Fixed by adding max-width for the container-fluid class.
-	- Footer download button were opening temporary pdf document. – Fixed by adding CV pdf document.
-	- On mobile devices, the padding around the heading and logo take up a lot of space. – Fixed by adding media queries to a relevant device size and reducing font size and padding.
-	- Footer email scan image have had no alt text. - Fixed.
-	- The mobile navigation showed too much of underlying text. - Fixed by adding opacity to the background-color property.
-	- Contact Form was too narrow on mobile devices. – Fixed by adding relevant media query and increasing form’s width to 70% and 90%.
-	- Contact page and Experience Page, on mobile devices have had an extraordinary amount of space between the hero image and the h1. - Fixed.
-	- Mobile menu on click, has the movement to the right at first before being placed below the logo divider bar. – Not fixed. It’s third party Bootstrap JavaScript code.
-
 
 
 ## RESPONSIVENESS
