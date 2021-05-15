@@ -180,29 +180,22 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) s
 
 Following features will be used in this project:
 
-  - Header and footer navigations. Implemented in full. And working properly
-  - Intuitive design. All website’s elements are known by any users. They knows exactly what to do on any of them. Navigations are in traditional places. Social icons are presented by their standard logos. Design is clear and understandable.
-  - Short description on top of the page. Implemented. Exceptions are Contact and Experience pages
-  - Contact form with CTA, to be in touch with website's owner. Implemented. Connected to the Code Institute server for demonstration purpose only.
-  - Social media icons are at the bottom of every page
-  - Biography (Study and work history). Presented in two pages: Profile for studies and Experience for Work experience. Customer can choose what is more important for him.
-  - Images as a visual representatives. Used relevant images to demonstrate content.
-  - Embedded portfolios. Used iframes to embed work examples
+  - Intuitive design. Design is clear and understandable.
+  - Designed with HTML5, CSS, JavaScript and Bootstrap.
+  - Fixed Header navigation. Simple and easy to navigate.
+  - Mobile navigation (sliding from the left).
+  - Clickable Header logo. 
+  - Hero slider. To present images for users. 
+  - Image Gallery with pop up light box for large preview.
+  - Location Map with clickable Markers. JSON objects are used for content information.
+  - Contact form with CTA, to be in touch with website's owner.
+  - Social media icons are at the bottom of every page.
+  - Newsletter sign up form at the bottom of every page.
 
 
 #### Implemented Features
 
-The project has implemented following features:
-  - Header and footer navigation.
-  - Intuitive design.
-  - Short description on top of the page.
-  - Contact form with CTA, to be in touch with website's owner.
-  - Social media icons
-  - Biography (Study and work history)
-  - Images as a visual representatives.
-  - Embedded portfolios.
-
-Header navigation is different on desktop and mobile versions.
+All planned features are implemented and working properly
 
 #### Future Features
 
@@ -212,7 +205,7 @@ Features to be implemented in the future:
 - Add search functionality
 - Add Flight booking functionality
 - Add attraction search functionality
-- More High quality images
+- Add booking functionality
 
 ## Technologies Used
 
