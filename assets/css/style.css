@@ -517,6 +517,9 @@ form .form-input.textarea {
 	height: 100%;
 	width: auto;
 }
+body.scrolled > header > .header-row {
+	background: var(--color-white);
+}
 
 /* END -------------- Navigation module --------------*/
 
