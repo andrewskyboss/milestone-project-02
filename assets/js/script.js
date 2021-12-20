@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+var scrollThreshold = 50;
 // Carousel Bootstrap
 $('.carousel').carousel({
   interval: 2000
@@ -47,6 +48,20 @@ function newsletterMail(newsletterForm) {
 	);
 	return true;
 }
+
+$(window).on('load', function() {
+    // Initialize on-load animations
+    $('body').addClass('on-load-animations-start');
+});
+
+$(window).on('load scroll', function(e) {
+    // Handle scroll
+    if($(document).scrollTop() > scrollThreshold) {
+        $('body').addClass('scrolled');
+    } else {
+        $('body').removeClass('scrolled');
+    }
+});
 
 
 
