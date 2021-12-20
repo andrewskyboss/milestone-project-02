@@ -116,6 +116,7 @@ footer .newsletter-container .newsletter-form button {
 
 .carousel.carousel-fade {
 	height: 90vh;
+	width: 100%;
 }
 .hero-image.contact,
 .carousel.carousel-fade.contact {
