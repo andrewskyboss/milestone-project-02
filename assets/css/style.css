@@ -184,6 +184,7 @@ section .gallery-container .gallery-row-single-image {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	cursor: pointer;
 }
 section .gallery-container .gallery-row-single-image .gallery-item-title {
 	position: absolute;
@@ -235,6 +236,7 @@ section .modal .modal-img-box .slide {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 section .modal .modal-img-box .slide .fa {
 	color: transparent;
@@ -310,6 +312,7 @@ section .modal .modal-img-box .close-icon {
 	padding: 20px;
 	top: 0;
 	right: 10%;
+	cursor: pointer;
 }
 section .modal .modal-img-box .close-icon:after {
 	background-image: url(../images/close-white.svg);
