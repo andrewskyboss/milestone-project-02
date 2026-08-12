@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow 404 error page from search engine indexes
+Disallow: /404.html
+
+Sitemap: https://andrewskyboss.github.io/milestone-project-02/sitemap.xml
