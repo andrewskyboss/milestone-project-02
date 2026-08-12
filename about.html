@@ -3,13 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Favicon & Search Tile Setup -->
+	<link rel="icon" type="image/x-icon" href="https://andrewskyboss.github.io/milestone-project-02/favicon.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="https://andrewskyboss.github.io/milestone-project-02/assets/images/favicon-48x48.png">
+	<link rel="icon" type="image/svg+xml" href="https://andrewskyboss.github.io/milestone-project-02/favicon.svg">
+
+	<!-- Primary Search Engine Optimization (SEO) -->
+	<title>Hey Travel | About Us & Project Overview (Code Institute Project)</title>
+	<meta name="title" content="Hey Travel | About Us & Project Overview (Code Institute Project)">
+	<meta name="description" content="Learn about Hey Travel, an interactive web application developed by Andrew as Milestone Project 2 for Code Institute. Explore the design concept, modern UI/UX architecture, and project goals.">
+	<meta name="keywords" content="Hey Travel About, Code Institute Milestone Project 2, Software Project Overview, Web Application UI UX Design, Frontend Portfolio Project">
+	<meta name="author" content="Andrew">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02/about.html">
+
+	<!-- Open Graph / Facebook / LinkedIn Social Cards -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02/about.html">
+	<meta property="og:title" content="Hey Travel | About Us & Project Overview (Code Institute Project)">
+	<meta property="og:description" content="Learn about Hey Travel, an interactive web application developed by Andrew as Milestone Project 2 for Code Institute. Explore the design concept, modern UI/UX architecture, and project goals.">
+	<meta property="og:site_name" content="Hey Travel Portfolio Project">
+	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-table-002.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hey Travel | About Us & Project Overview (Code Institute Project)">
+	<meta name="twitter:description" content="Learn about Hey Travel, an interactive web application developed by Andrew as Milestone Project 2 for Code Institute. Explore the design concept, modern UI/UX architecture, and project goals.">
+	<meta name="twitter:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-table-002.jpg">
+
 	<!-- START External Bootstrap links  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | About Us</title>
+
+	<!-- EmailJS Integration -->
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script>
+		(function() {
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
+
+	<!-- Structured Data (JSON-LD) for Search Engines & AI Crawlers -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "AboutPage",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/about.html#aboutpage",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/about.html",
+	      "name": "About Hey Travel Project",
+	      "description": "Project overview and architectural design objectives for Hey Travel, developed by Andrew for Code Institute Milestone Project 2.",
+	      "isPartOf": {
+	        "@type": "WebSite",
+	        "@id": "https://andrewskyboss.github.io/milestone-project-02/#website",
+	        "name": "Hey Travel | Code Institute Portfolio Project"
+	      },
+	      "author": {
+	        "@type": "Person",
+	        "name": "Andrew"
+	      }
+	    }
+	  ]
+	}
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -167,5 +231,4 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="assets/js/script.js"></script>
 </body>
-
 </html>
