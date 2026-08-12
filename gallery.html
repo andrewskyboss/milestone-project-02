@@ -3,13 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Favicon & Search Tile Setup -->
+	<link rel="icon" type="image/x-icon" href="https://andrewskyboss.github.io/milestone-project-02/favicon.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="https://andrewskyboss.github.io/milestone-project-02/assets/images/favicon-48x48.png">
+	<link rel="icon" type="image/svg+xml" href="https://andrewskyboss.github.io/milestone-project-02/favicon.svg">
+
+	<!-- Primary Search Engine Optimization (SEO) -->
+	<title>Hey Travel | European & Irish Travel Gallery (Code Institute Project)</title>
+	<meta name="title" content="Hey Travel | European & Irish Travel Gallery (Code Institute Project)">
+	<meta name="description" content="Explore interactive travel photo galleries featuring Ireland, Italy, Germany, France, and Spain. Developed by Andrew for Code Institute Milestone Project 2 using custom JavaScript lightbox modal integration.">
+	<meta name="keywords" content="Hey Travel Gallery, Ireland Travel Photos, European Landmarks Gallery, Code Institute Milestone Project 2, Interactive Lightbox Gallery, JavaScript Modal Gallery">
+	<meta name="author" content="Andrew">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02/gallery.html">
+
+	<!-- Open Graph / Facebook / LinkedIn Social Cards -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02/gallery.html">
+	<meta property="og:title" content="Hey Travel | European & Irish Travel Gallery (Code Institute Project)">
+	<meta property="og:description" content="Explore interactive travel photo galleries featuring iconic locations in Ireland and Europe with custom JavaScript lightbox functionality. Built by Andrew for Code Institute.">
+	<meta property="og:site_name" content="Hey Travel Portfolio Project">
+	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-ireland-004.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hey Travel | European & Irish Travel Gallery (Code Institute Project)">
+	<meta name="twitter:description" content="Explore interactive travel photo galleries featuring iconic locations in Ireland and Europe with custom JavaScript lightbox functionality. Built by Andrew for Code Institute.">
+	<meta name="twitter:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-ireland-004.jpg">
+
 	<!-- START External Bootstrap links  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Gallery</title>
+
+	<!-- EmailJS Integration -->
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script>
+		(function() {
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
+
+	<!-- Structured Data (JSON-LD) for Search Engines & AI Crawlers -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "ImageGallery",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/gallery.html#gallery",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/gallery.html",
+	      "name": "Hey Travel Photo Gallery",
+	      "description": "Interactive photo gallery showcasing destinations across Ireland, Italy, Germany, France, and Spain with custom JavaScript modal lightbox controls.",
+	      "isPartOf": {
+	        "@type": "WebSite",
+	        "@id": "https://andrewskyboss.github.io/milestone-project-02/#website",
+	        "name": "Hey Travel | Code Institute Portfolio Project"
+	      },
+	      "author": {
+	        "@type": "Person",
+	        "name": "Andrew"
+	      }
+	    }
+	  ]
+	}
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -183,14 +247,14 @@
 							<i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.youtube.com">
 							<i class="fa fa-youtube" aria-hidden="true" title="Youtube"></i>
 							<span class="sr-only">Youtube</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.tripadvisor.ie">
 							<i class="fa fa-tripadvisor" aria-hidden="true" title="Tripadvisor"></i>
 							<span class="sr-only">Tripadvisor</span>
@@ -210,5 +274,4 @@
 	<script src="assets/js/gallery.js"></script>
 
 </body>
-
 </html>
