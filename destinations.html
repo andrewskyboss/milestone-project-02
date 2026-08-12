@@ -3,13 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Favicon & Search Tile Setup -->
+	<link rel="icon" type="image/x-icon" href="https://andrewskyboss.github.io/milestone-project-02/favicon.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="https://andrewskyboss.github.io/milestone-project-02/assets/images/favicon-48x48.png">
+	<link rel="icon" type="image/svg+xml" href="https://andrewskyboss.github.io/milestone-project-02/favicon.svg">
+
+	<!-- Primary Search Engine Optimization (SEO) -->
+	<title>Hey Travel | European Holiday Packages & Interactive Destinations Map</title>
+	<meta name="title" content="Hey Travel | European Holiday Packages & Interactive Destinations Map">
+	<meta name="description" content="Explore European holiday packages and interactive travel destinations. Features Google Maps API integration with marker clustering, developed by Andrew for Code Institute Milestone Project 2.">
+	<meta name="keywords" content="Hey Travel Destinations, European Holiday Packages, Interactive Google Map Travel, Code Institute Milestone Project 2, JavaScript Maps API, Marker Clusterer, Ireland Travel App">
+	<meta name="author" content="Andrew">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02/destinations.html">
+
+	<!-- Open Graph / Facebook / LinkedIn Social Cards -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02/destinations.html">
+	<meta property="og:title" content="Hey Travel | European Holiday Packages & Interactive Destinations Map">
+	<meta property="og:description" content="Discover European travel destinations using an interactive Google Maps interface. Built as part of Code Institute Milestone Project 2 by Andrew.">
+	<meta property="og:site_name" content="Hey Travel Portfolio Project">
+	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/destinations.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hey Travel | European Holiday Packages & Interactive Destinations Map">
+	<meta name="twitter:description" content="Discover European travel destinations using an interactive Google Maps interface. Built as part of Code Institute Milestone Project 2 by Andrew.">
+	<meta name="twitter:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/destinations.png">
+
 	<!-- START External Bootstrap links  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Destinations</title>
+
+	<!-- EmailJS Integration -->
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script>
+		(function() {
+			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
+		})();
+	</script>
+
+	<!-- Structured Data (JSON-LD) for Search Engines & AI Crawlers -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "WebPage",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/destinations.html#webpage",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/destinations.html",
+	      "name": "Hey Travel Destinations & Interactive Map",
+	      "description": "Interactive map application showcasing European holiday packages and custom destination markers built using the Google Maps API.",
+	      "isPartOf": {
+	        "@type": "WebSite",
+	        "@id": "https://andrewskyboss.github.io/milestone-project-02/#website",
+	        "name": "Hey Travel | Code Institute Portfolio Project"
+	      },
+	      "author": {
+	        "@type": "Person",
+	        "name": "Andrew"
+	      }
+	    }
+	  ]
+	}
+	</script>
 </head>
 <body>
 	<header class="container-fluid">
@@ -118,14 +182,14 @@
 							<i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.youtube.com">
 							<i class="fa fa-youtube" aria-hidden="true" title="Youtube"></i>
 							<span class="sr-only">Youtube</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.tripadvisor.ie">
 							<i class="fa fa-tripadvisor" aria-hidden="true" title="Tripadvisor"></i>
 							<span class="sr-only">Tripadvisor</span>
@@ -144,13 +208,8 @@
 	<script async
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7slZiH_2QxvBiOc_Q5M4SzsNwRNK-Lng&callback=initMap">
 	</script>
-	<!--<script async
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap">
-    </script>
-    -->
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/destinations-map.js"></script>
 	<script src="assets/js/packages.js"></script>
 </body>
-
 </html>
