@@ -3,18 +3,76 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Favicon & Search Tile Setup -->
+	<link rel="icon" type="image/x-icon" href="https://andrewskyboss.github.io/milestone-project-02/favicon.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="https://andrewskyboss.github.io/milestone-project-02/assets/images/favicon-48x48.png">
+	<link rel="icon" type="image/svg+xml" href="https://andrewskyboss.github.io/milestone-project-02/favicon.svg">
+
+	<!-- Primary Search Engine Optimization (SEO) -->
+	<title>Hey Travel | Contact Us & Travel Enquiries (Code Institute Project)</title>
+	<meta name="title" content="Hey Travel | Contact Us & Travel Enquiries (Code Institute Project)">
+	<meta name="description" content="Get in touch with Hey Travel to enquire about European travel packages, custom itineraries, and destinations. Powered by EmailJS integrations for instant email dispatch.">
+	<meta name="keywords" content="Hey Travel Contact, Code Institute Milestone Project 2, Travel Package Enquiries, Contact Form EmailJS, European Travel Booking Information">
+	<meta name="author" content="Andrew">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02/contact.html">
+
+	<!-- Open Graph / Facebook / LinkedIn Social Cards -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02/contact.html">
+	<meta property="og:title" content="Hey Travel | Contact Us & Travel Enquiries (Code Institute Project)">
+	<meta property="og:description" content="Get in touch with Hey Travel to enquire about European travel packages, custom itineraries, and destinations. Powered by EmailJS integrations.">
+	<meta property="og:site_name" content="Hey Travel Portfolio Project">
+	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-table-003.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hey Travel | Contact Us & Travel Enquiries (Code Institute Project)">
+	<meta name="twitter:description" content="Get in touch with Hey Travel to enquire about European travel packages, custom itineraries, and destinations. Powered by EmailJS integrations.">
+	<meta name="twitter:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-table-003.jpg">
+
 	<!-- START External Bootstrap links  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Contact Us</title>
+
+	<!-- EmailJS Integration -->
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<script>
 		(function(){
 			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
 		})();
+	</script>
+
+	<!-- Structured Data (JSON-LD) for Search Engines & AI Crawlers -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "ContactPage",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/contact.html#contactpage",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/contact.html",
+	      "name": "Hey Travel Contact Page",
+	      "description": "Contact page for Hey Travel allowing users to submit trip requests, general questions, and subscription signups via EmailJS.",
+	      "isPartOf": {
+	        "@type": "WebSite",
+	        "@id": "https://andrewskyboss.github.io/milestone-project-02/#website",
+	        "name": "Hey Travel | Code Institute Portfolio Project"
+	      },
+	      "author": {
+	        "@type": "Person",
+	        "name": "Andrew"
+	      }
+	    }
+	  ]
+	}
 	</script>
 </head>
 <body>
@@ -161,5 +219,4 @@
 	<script src="assets/js/contact-form.js"></script>
 
 </body>
-
 </html>
