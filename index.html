@@ -3,29 +3,90 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Favicon & Search Tile Setup -->
+	<link rel="icon" type="image/x-icon" href="https://andrewskyboss.github.io/milestone-project-02/favicon.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="https://andrewskyboss.github.io/milestone-project-02/assets/images/favicon-48x48.png">
+	<link rel="icon" type="image/svg+xml" href="https://andrewskyboss.github.io/milestone-project-02/favicon.svg">
+
+	<!-- Primary Search Engine Optimization (SEO) -->
+	<title>Hey Travel | Interactive Ireland Tourism Web App (Code Institute Project)</title>
+	<meta name="title" content="Hey Travel | Interactive Ireland Tourism Web App (Code Institute Project)">
+	<meta name="description" content="Hey Travel is an interactive JavaScript portfolio web application developed by Andrew as Milestone Project 2 for Code Institute. Demonstrates API integration and dynamic UI design.">
+	<meta name="keywords" content="Hey Travel, Code Institute Milestone Project, JavaScript Web Application, Interactive Travel Map, Frontend Development Portfolio, Web Development Showcase, Ireland Tourism App">
+	<meta name="author" content="Andrew">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02/">
+
+	<!-- Open Graph / Facebook / LinkedIn Social Cards -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02/">
+	<meta property="og:title" content="Hey Travel | Interactive Ireland Tourism Web App (Code Institute Project)">
+	<meta property="og:description" content="Interactive JavaScript web application showcasing dynamic UI design and API integration for Ireland travel discovery. Created by Andrew for Code Institute Milestone Project 2.">
+	<meta property="og:site_name" content="Hey Travel Portfolio Project">
+	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-water-001.jpg">
+	<meta property="og:image:width" content="1920">
+	<meta property="og:image:height" content="1080">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hey Travel | Interactive Ireland Tourism Web App (Code Institute Project)">
+	<meta name="twitter:description" content="Interactive JavaScript web application showcasing dynamic UI design and API integration for Ireland travel discovery. Created by Andrew for Code Institute Milestone Project 2.">
+	<meta name="twitter:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-water-001.jpg">
+
 	<!-- START External Bootstrap links  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<!-- END External Bootstrap links  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Hey Travel | Milestone Project 2</title>
-	<meta name="description" content="Hey Travel | Ireland Travel | Milestone Project 2" />
-	<link rel="canonical" href="https://andrewskyboss.github.io/milestone-project-02" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Hey Travel | Ireland Travel | Milestone Project 2" />
-	<meta property="og:description" content="Hey Travel | Ireland Travel | Milestone Project 2 | JavaScript based project" />
-	<meta property="og:url" content="https://andrewskyboss.github.io/milestone-project-02" />
-	<meta property="og:site_name" content="Hey Travel" />
-	<meta property="og:image" content="https://andrewskyboss.github.io/milestone-project-02/assets/images/travel-water-001.jpg" />
-	<meta property="og:image:width" content="1920" />
-	<meta property="og:image:height" content="1080" />
+
+	<!-- EmailJS Integration -->
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<script>
 		(function() {
 			emailjs.init("user_dZ2tuIh8l1eKkXWGiLT7s");
 		})();
+	</script>
+
+	<!-- Structured Data (JSON-LD) for Search Engines & AI Crawlers -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "WebApplication",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/#webapp",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/",
+	      "name": "Hey Travel (Code Institute Milestone Project 2)",
+	      "applicationCategory": "EducationalApplication",
+	      "operatingSystem": "All modern browsers",
+	      "description": "Interactive educational web application developed as Milestone Project 2 for Code Institute, demonstrating frontend JavaScript development and interactive API integrations.",
+	      "author": {
+	        "@type": "Person",
+	        "@id": "https://andrewskyboss.github.io/cv/#person",
+	        "name": "Andrew",
+	        "url": "https://andrewskyboss.github.io/cv/"
+	      },
+	      "provider": {
+	        "@type": "EducationalOrganization",
+	        "name": "Code Institute"
+	      }
+	    },
+	    {
+	      "@type": "WebSite",
+	      "@id": "https://andrewskyboss.github.io/milestone-project-02/#website",
+	      "url": "https://andrewskyboss.github.io/milestone-project-02/",
+	      "name": "Hey Travel | Code Institute Portfolio Project",
+	      "description": "Educational travel application showcase built with JavaScript, Bootstrap, and interactive web APIs.",
+	      "publisher": {
+	        "@type": "Person",
+	        "name": "Andrew"
+	      }
+	    }
+	  ]
+	}
 	</script>
 </head>
 <body>
@@ -182,14 +243,14 @@
 							<i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.youtube.com">
 							<i class="fa fa-youtube" aria-hidden="true" title="Youtube"></i>
 							<span class="sr-only">Youtube</span>
 						</a>
-                    </li>
-                    <li class="list-inline-item">
+					</li>
+					<li class="list-inline-item">
 						<a target="_blank" href="https://www.tripadvisor.ie">
 							<i class="fa fa-tripadvisor" aria-hidden="true" title="Tripadvisor"></i>
 							<span class="sr-only">Tripadvisor</span>
@@ -201,13 +262,13 @@
 							<span class="sr-only">Twitter</span>
 						</a>
 					</li>
-					<li class="list-inline-item css-verification">
+					<!-- <li class="list-inline-item css-verification">
 						<a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check CSS">
 							<img style="border:0;width:88px;height:31px"
 							src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
 							alt="Valid CSS!" />
 						</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -218,5 +279,4 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="assets/js/script.js"></script>
 </body>
-
 </html>
