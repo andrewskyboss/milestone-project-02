@@ -7,7 +7,7 @@
 [Live site on GitHub Pages](https://andrewskyboss.github.io/milestone-project-02)
 
 # Author
-Andrew
+Andrew Cybossky
 
 - [milestone-project-02](#milestone-project-02)
 - [Interactive Front-End Development / Hey Travel](#interactive-front-end-development--hey-travel)
