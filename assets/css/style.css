@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
-
 :root {
   --color-brand-1: #296EB4;
   --color-brand-2: #04A777;
@@ -17,7 +16,6 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	color: var(--color-brand-6);
 	font-size: 16px;
-
 }
 /*---------------- Container ----------------*/
 @media (min-width: 2250px) {
