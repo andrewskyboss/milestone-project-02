@@ -7,7 +7,7 @@
 [Live site on GitHub Pages](https://andrewskyboss.github.io/milestone-project-02)
 
 # Author
-Andrew Cybossky
+**Andrew Cybossky** *(Andrej Cybovskij)*
 
 - [milestone-project-02](#milestone-project-02)
 - [Interactive Front-End Development / Hey Travel](#interactive-front-end-development--hey-travel)
@@ -29,11 +29,11 @@ Andrew Cybossky
     + [Wireframes](#wireframes)
     + [Features](#features)
       - [Implemented Features](#implemented-features)
-      - [Search Engine Optimization (SEO) & Sitemap](#search-engine-optimization-seo--sitemap)
+      - [Search Engine Optimization (SEO), AI Search & Sitemap](#search-engine-optimization-seo-ai-search--sitemap)
       - [Future Features](#future-features)
   * [Technologies Used](#technologies-used)
-    + [Frameworks and Extensions](#frameworks-and-extensions)
-    + [Fonts](#fonts)
+    + [Frameworks, Libraries, and APIs](#frameworks-libraries-and-apis)
+    + [Fonts & Icons](#fonts--icons)
     + [Programming Languages](#programming-languages)
   * [Tools and Resources](#tools-and-resources)
   * [Testing](#testing)
@@ -69,9 +69,9 @@ Andrew Cybossky
 ### Project Goals
 
 #### The goals of this project are:
-- Design, develop, and implement a dynamic front-end web application using HTML, CSS, and JavaScript.
+- Design, develop, and implement a dynamic front-end web application using HTML, CSS, and modern ES6+ JavaScript.
 - Meet target audience users’ needs using UI/UX design principles.
-- Implement front-end interactivity using core JavaScript, JavaScript libraries, and Application Programming Interfaces (APIs).
+- Implement front-end interactivity using core JavaScript, APIs, and responsive layout structures.
 - Test an interactive front-end web application through the development, implementation, and deployment stages.
 - Deploy an interactive front-end web application to a Cloud platform.
 - Demonstrate and document the development process through a version control system.
@@ -88,7 +88,7 @@ Common types of users are:
 
 #### Developer Goals
 - Design and implement a front-end web application based on the best principles of user experience design, accessibility, and responsiveness.
-- Implement a dynamic front-end web application using HTML, CSS, and JavaScript technologies.
+- Implement a dynamic front-end web application using HTML, CSS, and vanilla JavaScript technologies.
 - Clearly document the process for future usage and reference.
 - Use version control software to maintain and share code with other developers.
 - Test and deploy the web application to a Cloud platform.
@@ -110,7 +110,7 @@ Main goals of the website owner are:
 
 - **As a Single Traveller, I want to have:**
   1. Ability to easily find all possible destinations to choose from.
-  2. Ability to view visual information about destinations.
+  2. Ability to easily view visual information about destinations.
   3. Ability to easily find all possible attractions there.
   4. Ability to easily find detailed information about attractions.
   5. Ability to easily find all proposed Travel packages and what is included.
@@ -139,7 +139,7 @@ This project was built based on target audience needs. Since the target audience
   - Mobile sliding navigation
   - Intuitive design structure
   - SVG logo at the top
-  - Hero Slider
+  - Hero Slider with smooth CSS layer transitions
   - Image Gallery with modal popup window
   - Grid image layout
   - Google Map with custom markers
@@ -147,7 +147,7 @@ This project was built based on target audience needs. Since the target audience
   - Social media links
 - **Structure Plane** – Content is logically organized in main navigation items. Destination details and packages are accessible through the Destinations page and grid system on the homepage.
 - **Skeleton Plane** – Layout structured using wireframe mockups (Desktop, Tablet, Mobile).
-- **Surface Plane** – Classical design style with modern UI elements. The *Abril Fatface* heading font brings a stylish editorial look, while pale shades of blue, red, and green evoke water, sun, and nature. Light backgrounds and soft fade transitions provide elegance.
+- **Surface Plane** – Classical design style with modern UI elements. The *Abril Fatface* heading font brings a stylish editorial look, while pale shades of blue, red, and green evoke water, sun, and nature. Light backgrounds and soft transitions provide elegance.
 
 #### Colors
 The color palette represents natural tones: pale shades of blue, red, and green combined with neutral gray tones to evoke emotional trust and rest.
@@ -185,11 +185,12 @@ The color palette represents natural tones: pale shades of blue, red, and green 
 - Contact Form & Newsletter Subscription
 
 #### Animations and Transitions
+- **Layered Sliding Transition (`.slideFromRight`):** Custom keyframe image slider transition where new slides layer smoothly on top of active slides, eliminating layout white space or gap flickering.
+- **IntersectionObserver Animations:** Triggers scroll animations for titles, work history items, and skill blocks using native browser observers.
+- **Smooth Back-to-Top Scrolling:** Replaced jQuery scroll handlers with native browser `window.scrollTo({ top: 0, behavior: "smooth" })`.
 - **Zoom-in:** Applied to grid images, gallery items, and social icons on hover.
 - **Fade-in from bottom:** Applied to H1/H2 titles and gallery lightbox images.
-- **Sliding transition:** Lightbox opening/closing and mobile menu drawer.
-- **Rotation:** Close icon on the gallery lightbox window.
-- **Hover States:** Smooth color changes on buttons, social icons, and navbar items.
+- **Mobile Menu Drawer:** Dynamic toggle animation for header menu triggers and navigation links.
 
 ---
 
@@ -207,7 +208,7 @@ Wireframes were designed using [Balsamiq](https://balsamiq.com/wireframes/):
 - Clear, responsive, and intuitive interface across all screen sizes.
 - Fixed header navigation with smooth mobile navigation menu.
 - Clickable header logo routing to homepage.
-- Interactive hero image slider.
+- Interactive hero image slider with directional `#prev` and `#next` navigation controls.
 - Pop-up modal lightbox gallery for large image previews.
 - Google Maps integration with custom JSON location markers and info windows.
 - Working contact form powered by EmailJS API.
@@ -217,10 +218,11 @@ Wireframes were designed using [Balsamiq](https://balsamiq.com/wireframes/):
 #### Implemented Features
 All planned core features have been fully implemented, tested, and deployed.
 
-#### Search Engine Optimization (SEO) & Sitemap
-- **XML Sitemap (`sitemap.xml`):** Created and deployed at the repository root level to map all 5 canonical site pages (`index.html`, `destinations.html`, `gallery.html`, `about.html`, `contact.html`) for search engine crawlers and web indexers.
+#### Search Engine Optimization (SEO), AI Search & Sitemap
+- **Identity & Entity Resolution:** The HTML `<head>` tags and Schema JSON-LD establish **Andrew Cybossky** as the primary author while defining **Andrej Cybovskij** under `"alternateName"`. This ensures accurate entity linking across Google, Bing, and AI crawlers.
+- **Structured Data (JSON-LD):** Implemented schema annotations (`WebApplication`, `WebSite`, `Person`) linked directly to the developer's canonical CV page (`https://andrewskyboss.github.io/cv/`).
+- **XML Sitemap (`sitemap.xml`):** Created and deployed at the repository root level to map all canonical site pages (`index.html`, `destinations.html`, `gallery.html`, `about.html`, `contact.html`) for search engine crawlers and web indexers.
 - **Robots Instructions (`robots.txt`):** Configured to allow indexing across public site routes while explicitly disallowing search crawlers from indexing utility error pages (e.g., custom `404.html`).
-- **Structured Data (JSON-LD):** Implemented schema annotations (e.g., `WebSite`, `ImageGallery`, `ContactPage`, `AboutPage`) for enhanced search visibility.
 - **Meta Tags & Social Cards:** Comprehensive meta descriptions, keywords, Open Graph (`og:`), and Twitter Cards configured on every page.
 
 #### Future Features
@@ -235,7 +237,6 @@ All planned core features have been fully implemented, tested, and deployed.
 
 ### Frameworks, Libraries, and APIs
 - [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Responsive grid layout & UI components.
-- [jQuery](https://jquery.com) - JavaScript library for simplified DOM manipulation.
 - [EmailJS](https://www.emailjs.com/) - Frontend JavaScript API for dispatching contact form emails.
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Interactive location maps.
 
@@ -244,10 +245,10 @@ All planned core features have been fully implemented, tested, and deployed.
 - [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/)
 
 ### Programming Languages
-- [HTML5](https://www.w3schools.com/html/default.asp) - Markup structure.
-- [CSS3](https://www.w3schools.com/css/default.asp) - Styling and animations.
-- [JavaScript (ES6)](https://www.javascript.com) - Frontend logic and DOM interaction.
-- [JSON](https://www.json.org/json-en.html) - Location data storage.
+- [HTML5](https://www.w3schools.com/html/default.asp) - Markup structure and structured data annotations.
+- [CSS3](https://www.w3schools.com/css/default.asp) - Styling, responsive flexbox layout, and keyframe animations.
+- [JavaScript (ES6+)](https://www.javascript.com) - Modern vanilla JavaScript DOM interaction, IntersectionObserver scroll detection, and window-bound slider controls.
+- [JSON](https://www.json.org/json-en.html) - Location data storage and Schema.org metadata.
 
 ---
 
@@ -265,6 +266,11 @@ All planned core features have been fully implemented, tested, and deployed.
 
 Testing documentation is available in the separate [Testing Document](assets/documents/Testing.md).
 
+### Modern UI & Slider Testing
+- **Slider Controls:** Verified that `#prev` and `#next` navigation buttons and inline calls correctly advance slides without layout gaps or white flash transitions.
+- **Intersection Observer:** Tested across desktop and mobile screens to confirm section headings and skills items correctly receive `.add-animation` on scroll.
+- **Mobile Menu Toggle:** Verified smooth drawer toggling on touch devices and window resizing.
+
 ### Lighthouse Performance
 ![Lighthouse Performance](assets/images/lighthouse1.PNG)
 
@@ -273,7 +279,7 @@ Testing documentation is available in the separate [Testing Document](assets/doc
 ## Code Validity
 - Validated via [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 - Validated via [W3C Markup Validation Service](https://validator.w3.org/).
-- Validated via [JSHint Service](https://jshint.com/) for JavaScript syntax and quality.
+- Validated via [JSHint Service](https://jshint.com/) for modern ES6+ JavaScript syntax and quality.
 - Checked using [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/).
 
 ---
